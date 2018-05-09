@@ -1,0 +1,50 @@
+search Documents
+search Gra
+search Graphics
++
+search *ownshell*
+search Making
+search Writing
+search Shell
+search Vid
+search practice
+search flex
+search Lex
+search lex
+search prac
+search shell
+search netl
+search pra
+open_with nvmii
+search grap
+search refle
+open_with 1
+search music
+search 100
+open_with vlc &
+search 
+search musi
+search mus
+search doc
+find doc
+find top 
+search *top down*
+search *top*
+find top
+open_with 0
+find do
+
+find CSj
+search /CS341
+find mus
+open_with vlc
+search linkcuttrees
+bulkrename 
+shell tar -czvf assign6.tgz *
+r
+find ab
+open_with 
+find vid
+find vi
+find dow
+open_with nvim

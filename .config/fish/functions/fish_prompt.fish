@@ -1,0 +1,1 @@
+/home/i_love_ayrawhsia_nodnat/.local/share/omf/themes/ocean/fish_prompt.fish
