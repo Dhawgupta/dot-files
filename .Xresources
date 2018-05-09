@@ -1,0 +1,64 @@
+!URxvt.font: xft:monospace:bold:size=14
+!URxvt.boldFont: xft:monospace:bold:size=14
+
+URxvt.scrollBar: false
+
+Xft*rgba: rgba
+URxvt*fading: 0
+URxvt*tintColor: #ffffff
+URxvt*shading: 0
+URxvt*inheritPixmap: False
+URxvt*background: rgba:0000/0000/0200/ffff 
+URxvt*foreground: #c9282e 
+
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgba
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+
+! -- Fonts -- !
+!URxvt.font:xft:Noto Sans:pixelsize=20
+!URxvt.boldfont:xft:Noto Sans-Bold:pixelsize=20
+URxvt.font:     xft:bitstream vera sans mono:size=16:antialias=true
+URxvt.boldFont: xft:bitstream vera sans mono:bold:size=16:antialias=true
+!!! --- standard colors ---
+! black
+URxvt*color0: #7f94a0
+! bright_black
+URxvt*color8: #7f94a0
+! red
+URxvt*color1: #818995
+! bright_red
+URxvt*color9: #818995
+! green
+URxvt*color2: #A5BE9E
+! bright_green
+URxvt*color10: #A5BE9E
+! yellow
+URxvt*color3: #afad84
+! bright_yellow
+URxvt*color11: #afad84
+! blue
+URxvt*color4: #afad84
+! bright_blue
+URxvt*color12: #afad84
+! magenta
+URxvt*color5: #efefef
+! bright_magenta
+URxvt*color13: #efefef
+! cyan
+URxvt*color6: #6c7570
+! bright_cyan
+URxvt*color14: #6c7570
+! white
+URxvt*color7: #ada38b
+! bright_white
+URxvt*color15: #efefef
+
+URxvt.perl-ext-common: default,font-size
+URxvt.keysym.F11: perl:fullscreen:switch
+
+URxvt.keysym.C-k:	font-size:increase
+URxvt.keysym.C-j:	font-size:decrease
