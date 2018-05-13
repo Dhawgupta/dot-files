@@ -1,13 +1,13 @@
 !
 ! This is an `xmodmap' input file for 
 !   PC 101 key, thin Delete, tall Enter (XFree86; US) keyboards.
-! Automatically generated on Sun May 13 22:52:00 2018 by i_love_ayrawhsia_nodnat with
+! Automatically generated on Sun May 13 22:54:57 2018 by i_love_ayrawhsia_nodnat with
 ! XKeyCaps 2.46; Copyright (c) 1999 Jamie Zawinski <jwz@jwz.org>.
 ! http://www.jwz.org/xkeycaps/
 !
 ! This file makes the following changes:
 !
-! The "Esc" key generates Caps_Lock, NoSymbol, and Caps_Lock, and the Lock modifier
+! The "Esc" key generates Escape, NoSymbol, and Escape
 ! The "F1" key generates F1, F1, F1, F1, F1, F1, and XF86Switch_VT_1
 ! The "F2" key generates F2, F2, F2, F2, F2, F2, and XF86Switch_VT_2
 ! The "F3" key generates F3, F3, F3, F3, F3, F3, and XF86Switch_VT_3
@@ -98,7 +98,7 @@
 ! The "2 DownArrow" key generates KP_Down, KP_2, KP_Down, and KP_2
 ! The "3 Pg Dn" key generates KP_Next, KP_3, KP_Next, and KP_3
 ! The "Enter" key generates Alt_R, Meta_R, Alt_R, and Meta_R, and the Mod1 modifier
-! The "Ctrl" key generates Escape, NoSymbol, and Escape, and has no modifiers
+! The "Ctrl" key generates Caps_Lock, NoSymbol, and Caps_Lock, and the Lock modifier
 ! The "Alt" key generates Alt_L, Meta_L, Alt_L, and Meta_L
 ! The "space" key generates space, NoSymbol, and space
 ! The "Alt" key generates Left, NoSymbol, and Left, and has no modifiers
@@ -109,7 +109,7 @@
 ! The "0 Ins" key generates KP_Insert, KP_0, KP_Insert, and KP_0
 ! The ". Del" key generates KP_Delete, KP_Decimal, KP_Delete, and KP_Decimal
 
-keycode 0x09 =	Caps_Lock	NoSymbol	Caps_Lock
+keycode 0x09 =	Escape		NoSymbol	Escape
 keycode 0x43 =	F1		F1		F1		F1		F1		F1		XF86Switch_VT_1
 keycode 0x44 =	F2		F2		F2		F2		F2		F2		XF86Switch_VT_2
 keycode 0x45 =	F3		F3		F3		F3		F3		F3		XF86Switch_VT_3
@@ -200,7 +200,7 @@ keycode 0x57 =	KP_End		KP_1		KP_End		KP_1
 keycode 0x58 =	KP_Down		KP_2		KP_Down		KP_2
 keycode 0x59 =	KP_Next		KP_3		KP_Next		KP_3
 keycode 0x6C =	Alt_R		Meta_R		Alt_R		Meta_R
-keycode 0x25 =	Escape		NoSymbol	Escape
+keycode 0x25 =	Caps_Lock	NoSymbol	Caps_Lock
 keycode 0x40 =	Alt_L		Meta_L		Alt_L		Meta_L
 keycode 0x41 =	space		NoSymbol	space
 keycode 0x71 =	Left		NoSymbol	Left
