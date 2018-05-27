@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1525350108,,"q"
+|2,0,1527104910,,"q"
 :! make; ./a.out < ~/Documents/inputf.in > ~/Documents/outputf.in
 |2,0,1525280574,,"! make; ./a.out < ~/Documents/inputf.in > ~/Documents/outputf.in"
 :! make; ./a.out < ~/Documents/inputf.in
@@ -243,38 +243,54 @@ $
 |3,0,36,0,1,0,1523897558,"this"
 
 # File marks:
-'0  1  0  ~/tutor
-|4,48,1,0,1525350108,"~/tutor"
-'1  93  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
-|4,49,93,0,1525282542,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
-'2  6  0  ~/Downloads/output.txt
-|4,50,6,0,1524312375,"~/Downloads/output.txt"
-'3  46  14  ~/Downloads/test2.cpp
-|4,51,46,14,1524312210,"~/Downloads/test2.cpp"
-'4  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,52,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
-'5  114  12  ~/Downloads/astyle/CMakeLists.txt
-|4,53,114,12,1524059645,"~/Downloads/astyle/CMakeLists.txt"
-'6  1  0  ~/Downloads/astyle/hls
-|4,54,1,0,1524059621,"~/Downloads/astyle/hls"
-'7  1  22  ~/Downloads/astyle/as-gcc-exe/CMakeCache.txt
-|4,55,1,22,1524059591,"~/Downloads/astyle/as-gcc-exe/CMakeCache.txt"
-'8  9  5  ~/Documents/SORTING_FULL_NLOGN.cpp
-|4,56,9,5,1524042697,"~/Documents/SORTING_FULL_NLOGN.cpp"
-'9  1  0  ~/Documents/LinkCutTrees/linkcuttrees.tex
-|4,57,1,0,1524039198,"~/Documents/LinkCutTrees/linkcuttrees.tex"
+'0  1  0  ~/Documents/clang-format
+|4,48,1,0,1527104910,"~/Documents/clang-format"
+'1  1  0  ~/tutor
+|4,49,1,0,1525350108,"~/tutor"
+'2  93  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
+|4,50,93,0,1525282542,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
+'3  6  0  ~/Downloads/output.txt
+|4,51,6,0,1524312375,"~/Downloads/output.txt"
+'4  46  14  ~/Downloads/test2.cpp
+|4,52,46,14,1524312210,"~/Downloads/test2.cpp"
+'5  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
+|4,53,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
+'6  114  12  ~/Downloads/astyle/CMakeLists.txt
+|4,54,114,12,1524059645,"~/Downloads/astyle/CMakeLists.txt"
+'7  1  0  ~/Downloads/astyle/hls
+|4,55,1,0,1524059621,"~/Downloads/astyle/hls"
+'8  1  22  ~/Downloads/astyle/as-gcc-exe/CMakeCache.txt
+|4,56,1,22,1524059591,"~/Downloads/astyle/as-gcc-exe/CMakeCache.txt"
+'9  9  5  ~/Documents/SORTING_FULL_NLOGN.cpp
+|4,57,9,5,1524042697,"~/Documents/SORTING_FULL_NLOGN.cpp"
 
 # Jumplist (newest first):
+-'  1  0  ~/Documents/clang-format
+|4,39,1,0,1527104910,"~/Documents/clang-format"
+-'  1  0  ~/tutor
+|4,39,1,0,1525350108,"~/tutor"
 -'  1  0  ~/tutor
 |4,39,1,0,1525350108,"~/tutor"
 -'  93  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
 |4,39,93,0,1525282542,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
 -'  93  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
 |4,39,93,0,1525282542,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
+-'  93  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
+|4,39,93,0,1525282542,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
+-'  93  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
+|4,39,93,0,1525282542,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
 -'  72  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
 |4,39,72,0,1525280505,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
 -'  72  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
 |4,39,72,0,1525280505,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
+-'  72  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
+|4,39,72,0,1525280505,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
+-'  72  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
+|4,39,72,0,1525280505,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
+-'  1  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
+|4,39,1,0,1525280450,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
+-'  1  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
+|4,39,1,0,1525280450,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
 -'  1  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
 |4,39,1,0,1525280450,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
 -'  1  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
@@ -287,6 +303,22 @@ $
 |4,39,6,0,1524312375,"~/Downloads/output.txt"
 -'  6  0  ~/Downloads/output.txt
 |4,39,6,0,1524312375,"~/Downloads/output.txt"
+-'  6  0  ~/Downloads/output.txt
+|4,39,6,0,1524312375,"~/Downloads/output.txt"
+-'  6  0  ~/Downloads/output.txt
+|4,39,6,0,1524312375,"~/Downloads/output.txt"
+-'  6  0  ~/Downloads/output.txt
+|4,39,6,0,1524312375,"~/Downloads/output.txt"
+-'  6  0  ~/Downloads/output.txt
+|4,39,6,0,1524312375,"~/Downloads/output.txt"
+-'  1  0  ~/Downloads/output.txt
+|4,39,1,0,1524312372,"~/Downloads/output.txt"
+-'  1  0  ~/Downloads/output.txt
+|4,39,1,0,1524312372,"~/Downloads/output.txt"
+-'  1  0  ~/Downloads/output.txt
+|4,39,1,0,1524312372,"~/Downloads/output.txt"
+-'  1  0  ~/Downloads/output.txt
+|4,39,1,0,1524312372,"~/Downloads/output.txt"
 -'  1  0  ~/Downloads/output.txt
 |4,39,1,0,1524312372,"~/Downloads/output.txt"
 -'  1  0  ~/Downloads/output.txt
@@ -311,6 +343,38 @@ $
 |4,39,46,14,1524312210,"~/Downloads/test2.cpp"
 -'  46  14  ~/Downloads/test2.cpp
 |4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  46  14  ~/Downloads/test2.cpp
+|4,39,46,14,1524312210,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
+-'  50  4  ~/Downloads/test2.cpp
+|4,39,50,4,1524312194,"~/Downloads/test2.cpp"
 -'  50  4  ~/Downloads/test2.cpp
 |4,39,50,4,1524312194,"~/Downloads/test2.cpp"
 -'  50  4  ~/Downloads/test2.cpp
@@ -359,6 +423,38 @@ $
 |4,39,64,4,1524312193,"~/Downloads/test2.cpp"
 -'  51  17  ~/Downloads/test2.cpp
 |4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
+-'  64  4  ~/Downloads/test2.cpp
+|4,39,64,4,1524312193,"~/Downloads/test2.cpp"
+-'  51  17  ~/Downloads/test2.cpp
+|4,39,51,17,1524312193,"~/Downloads/test2.cpp"
 -'  1  0  ~/Downloads/test2.cpp
 |4,39,1,0,1524312180,"~/Downloads/test2.cpp"
 -'  1  0  ~/Downloads/test2.cpp
@@ -369,104 +465,12 @@ $
 |4,39,1,0,1524312180,"~/Downloads/test2.cpp"
 -'  1  0  ~/Downloads/test2.cpp
 |4,39,1,0,1524312180,"~/Downloads/test2.cpp"
--'  1  0  ~/Downloads/test2.cpp
-|4,39,1,0,1524312180,"~/Downloads/test2.cpp"
--'  1  0  ~/Downloads/test2.cpp
-|4,39,1,0,1524312180,"~/Downloads/test2.cpp"
--'  1  0  ~/Downloads/test2.cpp
-|4,39,1,0,1524312180,"~/Downloads/test2.cpp"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  5681  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,5681,0,1524059707,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  868  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,868,0,1524059678,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
--'  1  0  ~/Downloads/anti-adblock-killer (1).user.js
-|4,39,1,0,1524059662,"~/Downloads/anti-adblock-killer (1).user.js"
 
 # History of marks within files (newest to oldest):
+
+> ~/Documents/clang-format
+	*	1527104907	0
+	"	1	0
 
 > ~/tutor
 	*	1525350107	0

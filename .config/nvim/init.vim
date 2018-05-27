@@ -2,6 +2,7 @@
 :set autoread
 
 call plug#begin('~/.local/share/nvim/plugged')
+    "Semantic Autocomplete
     Plug 'Valloric/YouCompleteMe', {'dir': '~/.local/share/nvim/plugged/YouCompleteMe/', 'do': './install.py --clang-completer'}
 
     "Nerd commenter
@@ -21,7 +22,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mbbill/undotree'
 
     "Autoclose (, " etc
-    "Plug 'somini/vim-autoclose'
     Plug 'jiangmiao/auto-pairs'
 
     "UNIX shell command helpers, e.g. sudo, chmod, remove etc.
@@ -180,6 +180,8 @@ nnoremap <F1>   :noh<CR>
 nnoremap <F3>   :source ~/.config/nvim/init.vim <CR>
 "Remapping for Copying and Pasting to and from system clipboard
 vmap <C-c> "+y
+"Remapping for getting out of the insert mode
+imap yy <Esc>
 "Remapping for movements between windows
 "execute "set <M-j>=\ej"
 "execute "set <M-k>=\ek"

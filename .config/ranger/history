@@ -18,7 +18,6 @@ search pra
 open_with nvmii
 search grap
 search refle
-open_with 1
 search music
 search 100
 open_with vlc &
@@ -46,5 +45,6 @@ find ab
 open_with 
 find vid
 find vi
-find dow
 open_with nvim
+open_with 1
+find dow
