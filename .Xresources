@@ -21,8 +21,10 @@ Xft.hintstyle:  hintfull
 ! -- Fonts -- !
 !URxvt.font:xft:Noto Sans:pixelsize=20
 !URxvt.boldfont:xft:Noto Sans-Bold:pixelsize=20
-URxvt.font:     xft:bitstream vera sans mono:size=16:antialias=true
-URxvt.boldFont: xft:bitstream vera sans mono:bold:size=16:antialias=true
+!URxvt.font:     xft:bitstream vera sans mono:size=16:antialias=true
+!URxvt.boldFont: xft:bitstream vera sans mono:bold:size=16:antialias=true
+URxvt.font:     xft:bitstream vera sans mono:size=16:antialias=true,xft:Inconsolata\ for\ Powerline:pixelsize=16
+URxvt.boldFont: xft:bitstream vera sans mono:bold:size=16:antialias=true,xft:Inconsolata\ for\ Powerline:pixelsize=16
 !!! --- standard colors ---
 ! black
 URxvt*color0: #7f94a0

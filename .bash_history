@@ -1,7 +1,5 @@
 ./pstring.sh
 ./pstring.sh
-./pstring.sh
-./pstring.sh
 gdb pstring
 ./pstring.sh
 ./pstring.sh
@@ -497,4 +495,6 @@ exit
 pwd
 $(PWD)
 $PWD
+exit
+nvim .config/nvim/init.vim 
 exit

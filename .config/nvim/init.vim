@@ -146,7 +146,7 @@ let g:gruvbox_contrast_dark = 'hard'
 set bg=dark
 "LightLine vim configuration
 let g:lightline = {
-      \ 'colorscheme': 'Dracula',
+      \ 'colorscheme': 'seoul256',
       \ }
 "---------------------------------------------
 "

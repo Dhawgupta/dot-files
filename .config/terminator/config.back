@@ -1,0 +1,26 @@
+[global_config]
+  enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
+  window_state = hidden
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 1.0
+    cursor_color = "#f57900"
+    cursor_color_fg = False
+    font = Hack Bold 16
+    scrollback_lines = 1000
+    use_system_font = False
+  [[New Profile]]
+    cursor_color = "#aaaaaa"
+    font = Monospace Bold 16
+    use_system_font = False
