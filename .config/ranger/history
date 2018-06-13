@@ -1,6 +1,3 @@
-search Documents
-search Gra
-search Graphics
 +
 search *ownshell*
 search Making
@@ -30,7 +27,6 @@ find top
 search *top down*
 search *top*
 find top
-open_with 0
 find do
 
 find CSj
@@ -42,9 +38,13 @@ bulkrename
 shell tar -czvf assign6.tgz *
 r
 find ab
-open_with 
 find vid
+find dow
+shell rm -f code-linux.tar.gz
+delete
+shell ls | grep crdownload
 find vi
 open_with nvim
+open_with 0
 open_with 1
-find dow
+open_with 

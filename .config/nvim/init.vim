@@ -1,5 +1,5 @@
-:set shell=/bin/bash
-:set autoread
+set shell=/bin/bash
+set autoread
 
 call plug#begin('~/.local/share/nvim/plugged')
     "Semantic Autocomplete
@@ -45,6 +45,10 @@ call plug#begin('~/.local/share/nvim/plugged')
     "Plugin for C++ syntax highlighting
     Plug 'octol/vim-cpp-enhanced-highlight'
 
+    "Plugin for snippets
+    Plug 'SirVer/ultisnips'
+    Plug 'honza/vim-snippets'
+
     "For taking vim notes
     Plug 'xolox/vim-notes'
     Plug 'xolox/vim-misc'
@@ -71,8 +75,6 @@ call plug#end()
 "
 "
 "-------------Basic Customs--------------
-"Indent configuration in VIM
-filetype plugin indent on
 "show existing tab with 4 spaces width
 set tabstop=4
 "when indenting with '>', use 4 spaces width
@@ -83,16 +85,18 @@ set expandtab
 set number relativenumber
 "Use 256 bit colors
 set t_Co=256
-"Turn syntax highlighting on
-syntax on
 "refresh all the buffers
 nnoremap <silent> <F6> :checktime
 "Show whitespaces as characters
 :set list
-"whichwrap config file
-:set whichwrap+=>,l "For Normal Mode wrapping after right"
-:set whichwrap+=<,h "For Normal Mode wrapping after left"
-:set whichwrap+=[,]  "For Insert Mode wrapping"
+"For Normal Mode wrapping after right"
+:set whichwrap+=>,l
+"For Normal Mode wrapping after left"
+:set whichwrap+=<,h
+"For Insert Mode wrapping"
+:set whichwrap+=[,]
+"For highligting the current line
+:set cursorline
 "----------------------------------------
 "
 "
@@ -138,11 +142,6 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 "Grubox configs
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
-"ColorScheme one
-"colorscheme one
-"let g:one_allow_italics = 1
-"HarleyQuin
-"colorscheme harlequin
 set bg=dark
 "LightLine vim configuration
 let g:lightline = {
@@ -183,10 +182,6 @@ vmap <C-c> "+y
 "Remapping for getting out of the insert mode
 imap yy <Esc>
 "Remapping for movements between windows
-"execute "set <M-j>=\ej"
-"execute "set <M-k>=\ek"
-"execute "set <M-l>=\el"
-"execute "set <M-h>=\eh"
 nnoremap <M-j> <C-w>j
 nnoremap <M-k> <C-w>k
 nnoremap <M-h> <C-w>h
@@ -195,4 +190,15 @@ inoremap <M-j> <Esc><C-w>j
 inoremap <M-k> <Esc><C-w>k
 inoremap <M-h> <Esc><C-w>h
 inoremap <M-l> <Esc><C-w>l
+let mapleader = "\<Space>"
 "------------------------------------------
+"
+"
+"
+"--------UltiSnips Keybindings---------------
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+let g:UltiSnipsSnippetsDir = "/home/i_love_ayrawhsia_nodnat/UltiSnips"
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "/home/i_love_ayrawhsia_nodnat/UltiSnips"]
+let g:UltiSnipsEditSplit= "context"
