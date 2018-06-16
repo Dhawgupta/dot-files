@@ -1,5 +1,5 @@
 [global_config]
-  enabled_plugins = CustomCommandsMenu, APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler, terminator-themes
+  enabled_plugins = CustomCommandsMenu, TerminatorThemes, APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
   title_inactive_bg_color = "#272822"
   title_inactive_fg_color = "#f8f8f2"
   title_transmit_bg_color = "#272822"
@@ -7,6 +7,8 @@
 [keybindings]
   group_all_toggle = None
   help = None
+  layout_launcher = None
+  switch_to_tab_1 = None
 [layouts]
   [[default]]
     [[[child1]]]

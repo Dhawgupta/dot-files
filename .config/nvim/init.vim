@@ -2,83 +2,93 @@ set shell=/bin/bash
 set autoread
 
 call plug#begin('~/.local/share/nvim/plugged')
-    "Semantic Autocomplete
-    Plug 'Valloric/YouCompleteMe', {'dir': '~/.local/share/nvim/plugged/YouCompleteMe/', 'do': './install.py --clang-completer'}
+  "Semantic Autocomplete
+  Plug 'Valloric/YouCompleteMe', {'dir': '~/.local/share/nvim/plugged/YouCompleteMe/', 'do': './install.py --clang-completer'}
 
-    "Nerd commenter
-    Plug 'scrooloose/nerdcommenter'
+  "Nerd commenter
+  Plug 'scrooloose/nerdcommenter'
 
-    "Color Scheme
-    Plug 'morhetz/gruvbox'
+  "Color Scheme
+  Plug 'morhetz/gruvbox'
 
-    "Fuzzy finder (files, mru, etc)
-    Plug 'ctrlpvim/ctrlp.vim'
+  "Fuzzy finder (files, mru, etc)
+  Plug 'ctrlpvim/ctrlp.vim'
 
-    "A pretty statusline, bufferline integration
-    Plug 'itchyny/lightline.vim'
-    Plug 'bling/vim-bufferline'
+  "A pretty statusline, bufferline integration
+  Plug 'itchyny/lightline.vim'
+  Plug 'bling/vim-bufferline'
 
-    "Undo history visualizer
-    Plug 'mbbill/undotree'
+  "Undo history visualizer
+  Plug 'mbbill/undotree'
 
-    "Autoclose (, " etc
-    Plug 'jiangmiao/auto-pairs'
+  "Autoclose (, " etc
+  Plug 'jiangmiao/auto-pairs'
 
-    "UNIX shell command helpers, e.g. sudo, chmod, remove etc.
-    Plug 'tpope/vim-eunuch'
+  "UNIX shell command helpers, e.g. sudo, chmod, remove etc.
+  Plug 'tpope/vim-eunuch'
 
-    "Handle surround chars like ''
-    Plug 'tpope/vim-surround'
+  "Handle surround chars like ''
+  Plug 'tpope/vim-surround'
 
-    "Align your = etc.
-    Plug 'junegunn/vim-easy-align'
+  "Align your = etc.
+  Plug 'junegunn/vim-easy-align'
 
-    "Reformat/Reindent whole file with single line
-    Plug 'Chiel92/vim-autoformat'
+  "Reformat/Reindent whole file with single line
+  Plug 'Chiel92/vim-autoformat'
 
-    "Nerd Tree File explorer
-    Plug 'scrooloose/nerdtree'
+  "Nerd Tree File explorer
+  Plug 'scrooloose/nerdtree'
 
-    "Color Scheme vim-one
-    Plug 'rakr/vim-one'
+  "Color Scheme vim-one
+  Plug 'rakr/vim-one'
 
-    "Plugin for C++ syntax highlighting
-    Plug 'octol/vim-cpp-enhanced-highlight'
+  "Plugin for C++ syntax highlighting
+  Plug 'octol/vim-cpp-enhanced-highlight'
 
-    "Plugin for snippets
-    Plug 'SirVer/ultisnips'
-    Plug 'honza/vim-snippets'
+  "Plugin for snippets
+  Plug 'SirVer/ultisnips'
+  Plug 'honza/vim-snippets'
 
-    "For taking vim notes
-    Plug 'xolox/vim-notes'
-    Plug 'xolox/vim-misc'
+  "For taking vim notes
+  Plug 'xolox/vim-notes'
+  Plug 'xolox/vim-misc'
 
-    "Plugins for \LaTeX
-    Plug 'lervag/vimtex'
+  "Plugins for \LaTeX
+  Plug 'lervag/vimtex'
 
-    "Plugin for asynchronously running shell commands
-    Plug 'skywind3000/asyncrun.vim'
+  "Plugin for asynchronously running shell commands
+  Plug 'skywind3000/asyncrun.vim'
 
-    "Plugin for installing various colorschemes
-    Plug 'flazz/vim-colorschemes'
+  "Plugin for installing various colorschemes
+  Plug 'flazz/vim-colorschemes'
 
-    "Plugin for colorscheme switcher
-    Plug 'xolox/vim-colorscheme-switcher'
+  "Plugin for colorscheme switcher
+  Plug 'xolox/vim-colorscheme-switcher'
 
-    "Pluging for colorscheme tuning[Only for true color supporting terminals]
-    Plug 'zefei/vim-colortuner'
+  "Pluging for colorscheme tuning[Only for true color supporting terminals]
+  Plug 'zefei/vim-colortuner'
 
-    "Plugin for vim themes
-    "Plug 'reedes/vim-thematic'
-call plug#end()
+  "Plugin for vim themes
+  "Plug 'reedes/vim-thematic'
+  
+  "Plugin for Window Resize Mode
+  Plug 'romgrk/winteract.vim'
+
+  "Plugin for sub-modes vim
+  Plug 'kana/vim-submode'
+
+  Plug 'easymotion/vim-easymotion'
+
+  Plug 'Yggdroot/indentLine'
+  call plug#end()
 "
 "
 "
 "-------------Basic Customs--------------
 "show existing tab with 4 spaces width
-set tabstop=4
+set tabstop=2
 "when indenting with '>', use 4 spaces width
-set shiftwidth=4
+set shiftwidth=2
 "On pressing tab, insert 4 spaces
 set expandtab
 "Line numbering (Relative or Absolute or Hybrid)
@@ -88,15 +98,17 @@ set t_Co=256
 "refresh all the buffers
 nnoremap <silent> <F6> :checktime
 "Show whitespaces as characters
-:set list
+set list
 "For Normal Mode wrapping after right"
-:set whichwrap+=>,l
+set whichwrap+=>,l
 "For Normal Mode wrapping after left"
-:set whichwrap+=<,h
+set whichwrap+=<,h
 "For Insert Mode wrapping"
-:set whichwrap+=[,]
+set whichwrap+=[,]
 "For highligting the current line
-:set cursorline
+set cursorline
+"Shows the current buffer path
+set statusline+=%F
 "----------------------------------------
 "
 "
@@ -110,7 +122,7 @@ let c_no_curly_error=1
 "
 "
 "Reformat the code
-let b:formatdef_custom_cpp='"clang-format -style=\"{IndentWidth: 4, TabWidth: 4}\" "'
+let b:formatdef_custom_cpp='"clang-format -style=\"{IndentWidth: 2, TabWidth: 2}\" "'
 let b:formatters_cpp = ['custom_cpp']
 "
 "
@@ -181,16 +193,7 @@ nnoremap <F3>   :source ~/.config/nvim/init.vim <CR>
 vmap <C-c> "+y
 "Remapping for getting out of the insert mode
 imap yy <Esc>
-"Remapping for movements between windows
-nnoremap <M-j> <C-w>j
-nnoremap <M-k> <C-w>k
-nnoremap <M-h> <C-w>h
-nnoremap <M-l> <C-w>l
-inoremap <M-j> <Esc><C-w>j
-inoremap <M-k> <Esc><C-w>k
-inoremap <M-h> <Esc><C-w>h
-inoremap <M-l> <Esc><C-w>l
-let mapleader = "\<Space>"
+let mapleader = " "
 "------------------------------------------
 "
 "
@@ -199,6 +202,44 @@ let mapleader = "\<Space>"
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+"Beware Tilda Completion doesn't work in the path
 let g:UltiSnipsSnippetsDir = "/home/i_love_ayrawhsia_nodnat/UltiSnips"
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "/home/i_love_ayrawhsia_nodnat/UltiSnips"]
 let g:UltiSnipsEditSplit= "context"
+"
+"
+"
+"-------Windows Managment------------------
+nnoremap <leader>wc :wincmd q<cr>
+nnoremap <leader>wr <C-W>r
+nnoremap <Leader>wh :split<CR>
+nnoremap <Leader>wv :vsplit<CR>
+map <leader>H              :wincmd H<cr>
+map <leader>K              :wincmd K<cr>
+map <leader>L              :wincmd L<cr>
+map <leader>J              :wincmd J<cr>
+"Resize Windows
+nmap gw        :InteractiveWindow<CR>
+nmap <left>  :3wincmd <<cr>
+nmap <right> :3wincmd ><cr>
+nmap <up>    :3wincmd +<cr>
+nmap <down>  :3wincmd -<cr>
+call submode#enter_with('move', 'n', '', '<leader>h', '<C-w>h')
+call submode#enter_with('move', 'n', '', '<leader>j', '<C-w>j')
+call submode#enter_with('move', 'n', '', '<leader>k', '<C-w>k')
+call submode#enter_with('move', 'n', '', '<leader>l', '<C-w>l')
+call submode#map('move', 'n', '', 'h', '<C-w>h')
+call submode#map('move', 'n', '', 'j', '<C-w>j')
+call submode#map('move', 'n', '', 'k', '<C-w>k')
+call submode#map('move', 'n', '', 'l', '<C-w>l')
+"disable submode timeouts:
+let g:submode_timeout = 0
+" don't consume submode-leaving key
+let g:submode_keep_leaving_key = 1
+"-------------------------------------------
+"
+"
+"
+"-------------Indent Line-------------------
+let g:indentLine_char = '▏'
+"-------------------------------------------
