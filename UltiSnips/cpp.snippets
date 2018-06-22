@@ -4,8 +4,6 @@ snippet zxc "CP_Snippet"
 using namespace std;
 
 using LL = long long;
-template<typename T> using V = vector<T>; 
-template<typename T, typename S> using P = pair<T, S>; 
 template<class T> using min_heap = priority_queue<T, std::vector<T>, std::greater<T>>;
 using LD = long double;
 
@@ -13,17 +11,12 @@ using LD = long double;
 #define en(v) *(--v.end())
 #define endl '\n'
 #define SYNC ios_base::sync_with_stdio(false); cin.tie(NULL); cerr.tie(NULL);
-#define REP(i, n) for(int i = 0; i < (int)n ;i++)
-#define REPN(i, n) for(int i = 1; i <= (int)n ; i++)
 #define her     cerr << "here\n" 
-#define pp push_back
-#define fi first 
-#define se second
 #define un(x) x.erase(unique(ALL(x)), x.end())
 
 template<class TH> void _dbg(const char *sdbg, TH h){cerr<<sdbg<<"="<<h<<"\n";}
 template<class TH, class... TA> void _dbg(const char *sdbg, TH h, TA... a) {
-    while(*sdbg!=','){cerr<<*sdbg++;} cerr<<"="<<h<<","; _dbg(sdbg+1, a...);
+	while(*sdbg!=','){cerr<<*sdbg++;} cerr<<"="<<h<<","; _dbg(sdbg+1, a...);
 }
 
 #ifdef aishwarya_tandon_is_the_best
@@ -34,10 +27,10 @@ template<class TH, class... TA> void _dbg(const char *sdbg, TH h, TA... a) {
 #endif
 
 int32_t main() { SYNC
-    $1
+	$1
 
-    cerr << "Time elapsed :" << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
-    return 0;
+	cerr << "Time elapsed :" << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
+	return 0;
 }
 endsnippet
 

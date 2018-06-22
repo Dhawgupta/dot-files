@@ -172,12 +172,12 @@ client.focused_inactive     #181818     #181818     #2c2e2f     #181818
 client.urgent               #383a3b     #00ccff     #ee0000     #181818
 #########################################
 
-bindsym $mod+shift+x exec i3lock
+bindsym $mod+shift+x exec "bash ~/lock.sh"
 
 # Bindings for MY PERSONAL USAGE
 bindsym $mod+c exec chromium
 bindsym $mod+z exec subl
-bindsym $mod+x exec firefox
+bindsym $mod+x exec google-chrome-stable
 bindsym $mod+b exec spotify
 bindsym $mod+n exec idea.sh
 bindsym $mod+t exec $term -e ranger 

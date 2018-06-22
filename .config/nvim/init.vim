@@ -79,7 +79,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 
   Plug 'easymotion/vim-easymotion'
 
+  "Plugin for giving Indent Line for the levels
   Plug 'Yggdroot/indentLine'
+
+  Plug 'tpope/vim-repeat'
   call plug#end()
 "
 "
@@ -194,6 +197,7 @@ vmap <C-c> "+y
 "Remapping for getting out of the insert mode
 imap yy <Esc>
 let mapleader = " "
+nnoremap <C-a> ggVG
 "------------------------------------------
 "
 "

@@ -1,6 +1,3 @@
-search *ownshell*
-search Making
-search Writing
 search Shell
 search Vid
 search practice
@@ -38,7 +35,6 @@ shell tar -czvf assign6.tgz *
 r
 find ab
 find vid
-find dow
 shell rm -f code-linux.tar.gz
 delete
 shell ls | grep crdownload
@@ -48,3 +44,7 @@ open_with 0
 open_with 1
 open_with 
 find
+find dow
+find Sout
+cd .config/
+find scr
