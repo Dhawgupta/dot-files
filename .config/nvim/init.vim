@@ -82,7 +82,18 @@ call plug#begin('~/.local/share/nvim/plugged')
   "Plugin for giving Indent Line for the levels
   Plug 'Yggdroot/indentLine'
 
+  "Repeat . command everytime
   Plug 'tpope/vim-repeat'
+
+  "Plugin for pywal theming with vim
+  Plug 'dylanaraps/wal.vim'
+
+  "Plugin for icons in vim
+  Plug 'ryanoasis/vim-devicons'
+
+  "Plugin for vim-tmux navigator
+  Plug 'christoomey/vim-tmux-navigator'
+
   call plug#end()
 "
 "
@@ -148,6 +159,7 @@ set completeopt-=preview
 autocmd BufEnter *.cpp :let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf_cpp.py'
 autocmd BufEnter *.cc :let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf_cpp.py'
 autocmd BufEnter *.c :let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf_c.py'
+nnoremap <C-\> :YcmRestartServer<CR>
 "
 "
 "
@@ -157,6 +169,7 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 "Grubox configs
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
+"colorscheme wal
 set bg=dark
 "LightLine vim configuration
 let g:lightline = {
@@ -175,7 +188,7 @@ let g:asyncrun_bell = 1
 "ring the bell to notify you job finished
 "F10 to toggle quickfix window
 nnoremap <F10> :call asyncrun#quickfix_toggle(10)<cr>
-nnoremap <silent> <F2> :AsyncRun -cwd=$(VIM_FILEDIR) -save=2 -post=checktime make '%:t:r' && ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in<CR>:checktime<CR>
+nnoremap <silent> <F2> :AsyncRun -cwd=$(VIM_FILEDIR) -save=2 -post=checktime make '%:t:r' && timeout 4s ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in<CR>:checktime<CR>
 "nnoremap <silent> <F2> :AsyncRun -save=2 -post=checktime cd '$(VIM_FILEDIR)' && g++ -Wall -Wfatal-errors -g -O3 -Daishwarya_tandon_is_best '%:t' -o '%:t:r' && ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in <CR>
 "nnoremap <silent> <F2> :AsyncRun -save=2 -post=checktime cd '$(VIM_FILEDIR)' && g++ 975e.cpp<CR>
 nnoremap <silent> <F4> :AsyncRun -cwd=$(VIM_FILEDIR) ~/InsertInMakeFile.sh <cr>
@@ -198,6 +211,11 @@ vmap <C-c> "+y
 imap yy <Esc>
 let mapleader = " "
 nnoremap <C-a> ggVG
+"NERDTree Remappings
+nnoremap <C-n> :NERDTree<CR>
+"Moving in line wraps
+nnoremap j gj
+nnoremap k gk
 "------------------------------------------
 "
 "
@@ -247,3 +265,20 @@ let g:submode_keep_leaving_key = 1
 "-------------Indent Line-------------------
 let g:indentLine_char = '▏'
 "-------------------------------------------
+"
+"
+"
+"-------------Searching---------------------
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+"-------------------------------------------
+"
+"
+"------------tmux/navigator-----------------
+nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
+"--------------------------------------------

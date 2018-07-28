@@ -4,6 +4,7 @@
   title_inactive_fg_color = "#f8f8f2"
   title_transmit_bg_color = "#272822"
   title_transmit_fg_color = "#f8f8f2"
+  window_state = hidden
 [keybindings]
   group_all_toggle = None
   help = None
@@ -24,10 +25,12 @@
     background_color = "#272822"
     cursor_color = "#f57900"
     cursor_color_fg = False
-    font = Hack Bold 16
+    font = SauceCodePro Nerd Font Mono Semi-Bold 18
     foreground_color = "#f8f8f2"
+    icon_bell = False
     palette = "#272822:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#a1efe4:#f8f8f2:#75715e:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#a1efe4:#f9f8f5"
     scrollbar_position = hidden
+    show_titlebar = False
     use_system_font = False
   [[New Profile]]
     cursor_color = "#aaaaaa"

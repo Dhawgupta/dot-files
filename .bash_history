@@ -1,9 +1,5 @@
 ./pstring.sh
 ./pstring.sh
-gdb pstring
-./pstring.sh
-./pstring.sh
-./pstring.sh
 ./pstring.sh
 ./pstring.sh
 ./pstring.sh
@@ -497,4 +493,8 @@ $(PWD)
 $PWD
 exit
 nvim .config/nvim/init.vim 
+exit
+(cat .cache/wal/sequences &)
+ls .cache/wal | grep seque
+nvim .cache/wal/sequences
 exit

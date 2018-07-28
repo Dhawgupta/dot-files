@@ -11,17 +11,27 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/complete
+~MSle0~/Impossible
 
 # Last Substitute Search Pattern:
-~MSle0~&FwdingTbl
+~MSle0&FwdingTbl
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:qa
+|2,0,1532382880,,"qa"
 :q
-|2,0,1528315193,,"q"
+|2,0,1532382878,,"q"
+:wq
+|2,0,1532372703,,"wq"
+:Q
+|2,0,1532372688,,"Q"
+:w
+|2,0,1532210109,,"w"
+:RemoveTrailingSpaces
+|2,0,1531167926,,"RemoveTrailingSpaces"
 :! make; ./a.out < ~/Documents/inputf.in > ~/Documents/outputf.in
 |2,0,1525280574,,"! make; ./a.out < ~/Documents/inputf.in > ~/Documents/outputf.in"
 :! make; ./a.out < ~/Documents/inputf.in
@@ -34,16 +44,12 @@ $
 |2,0,1525280482,,"!make c && ./a.out < inputf.in"
 :n hls
 |2,0,1524059618,,"n hls"
-:w
-|2,0,1524037384,,"w"
 :q!
 |2,0,1523898206,,"q!"
 :h tutor
 |2,0,1523896123,,"h tutor"
 :vimtutor
 |2,0,1523896118,,"vimtutor"
-:wq
-|2,0,1523612092,,"wq"
 :'<,'>s/FwdingTbl/ForwardTable/g
 |2,0,1523537750,,"'<,'>s/FwdingTbl/ForwardTable/g"
 :'<,'>y+
@@ -135,7 +141,9 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1524037384,,"\\s\\+$"
+|2,1,1532210109,,"\\s\\+$"
+?/Impossible
+|2,1,1532209551,47,"Impossible"
 ? FwdingTbl
 |2,1,1523537750,,"FwdingTbl"
 ?/complete
@@ -200,265 +208,341 @@ $
 	 item
 |3,0,0,0,1,0,1523898120," item"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1527699869,""
+	#define endl '\n'
+|3,1,1,1,1,0,1530370461,"#define endl '\\n'"
 "2	LINE	0
-	bg_color=#272728282222
-|3,0,2,1,1,0,1527699868,"bg_color=#272728282222"
+	
+|3,0,2,1,1,0,1527699869,""
 "3	LINE	0
+	bg_color=#272728282222
+|3,0,3,1,1,0,1527699868,"bg_color=#272728282222"
+"4	LINE	0
 	  2. Place the cursor on the  u  in  lubw.
 	
 	  3. Type  ce  and the correct word (in this case, type  ine ).
-|3,0,3,1,3,0,1523897256,"  2. Place the cursor on the  u  in  lubw.","","  3. Type  ce  and the correct word (in this case, type  ine )."
-"4	LINE	0
-	---> a) Roses are red,
-|3,0,4,1,1,0,1523897195,"---> a) Roses are red,"
+|3,0,4,1,3,0,1523897256,"  2. Place the cursor on the  u  in  lubw.","","  3. Type  ce  and the correct word (in this case, type  ine )."
 "5	LINE	0
-	---> d) Can you learn too?
-|3,0,5,1,1,0,1523897166,"---> d) Can you learn too?"
+	---> a) Roses are red,
+|3,0,5,1,1,0,1523897195,"---> a) Roses are red,"
 "6	LINE	0
+	---> d) Can you learn too?
+|3,0,6,1,1,0,1523897166,"---> d) Can you learn too?"
+"7	LINE	0
 	      if(q.nextEmpty()) {
 	        lajlsdjfalksjflajk
 	      }
-|3,0,6,1,3,0,1522593641,"      if(q.nextEmpty()) {","        lajlsdjfalksjflajk","      }"
-"7	LINE	0
-	"-" { printf("MINUS\n"); }
-|3,0,7,1,1,0,1521763829,"\"-\" { printf(\"MINUS\\n\"); }"
+|3,0,7,1,3,0,1522593641,"      if(q.nextEmpty()) {","        lajlsdjfalksjflajk","      }"
 "8	LINE	0
-	#include <stdio.h>
-|3,0,8,1,1,0,1521763760,"#include <stdio.h>"
+	"-" { printf("MINUS\n"); }
+|3,0,8,1,1,0,1521763829,"\"-\" { printf(\"MINUS\\n\"); }"
 "9	LINE	0
-	#include <bits/stdc++.h>
-|3,0,9,1,1,0,1521735228,"#include <bits/stdc++.h>"
+	#include <stdio.h>
+|3,0,9,1,1,0,1521763760,"#include <stdio.h>"
 "-	CHAR	0
-	this
-|3,0,36,0,1,0,1523897558,"this"
+	 
+|3,0,36,0,1,0,1530368295," "
 
 # File marks:
-'0  167  0  ~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/contents/lecture-slides-and-files/lectureGraphs.py
-|4,48,167,0,1528315193,"~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/contents/lecture-slides-and-files/lectureGraphs.py"
-'1  1  0  ~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/common/scripts/bubble-popup-offline.js
-|4,49,1,0,1528230161,"~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/common/scripts/bubble-popup-offline.js"
-'2  11  0  ~/terminator-themes-cornucopia/themes
-|4,50,11,0,1527699872,"~/terminator-themes-cornucopia/themes"
-'3  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,51,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
-'4  1  0  ~/Videos/downloadVids.sh
-|4,52,1,0,1527535648,"~/Videos/downloadVids.sh"
-'5  1  0  ~/Documents/clang-format
-|4,53,1,0,1527104910,"~/Documents/clang-format"
-'6  1  0  ~/tutor
-|4,54,1,0,1525350108,"~/tutor"
-'7  93  0  ~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp
-|4,55,93,0,1525282542,"~/Documents/Competitive Programming/CodeJam/round 1b/c.cpp"
-'8  6  0  ~/Downloads/output.txt
-|4,56,6,0,1524312375,"~/Downloads/output.txt"
-'9  46  14  ~/Downloads/test2.cpp
-|4,57,46,14,1524312210,"~/Downloads/test2.cpp"
+'0  267  0  ~/.tmux/.tmux.conf.local
+|4,48,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+'1  6  0  ~/Documents/inputf.in
+|4,49,6,0,1532381171,"~/Documents/inputf.in"
+'2  4  40  ~/.tmux.conf.local
+|4,50,4,40,1532372703,"~/.tmux.conf.local"
+'3  80  1  ~/Downloads/output_ethan.txt
+|4,51,80,1,1532210184,"~/Downloads/output_ethan.txt"
+'4  68  12  ~/Documents/outputf.in
+|4,52,68,12,1532210153,"~/Documents/outputf.in"
+'5  68  12  ~/Documents/outputf.in
+|4,53,68,12,1532210153,"~/Documents/outputf.in"
+'6  55  12  ~/Documents/outputf.in
+|4,54,55,12,1532210111,"~/Documents/outputf.in"
+'7  55  12  ~/Documents/outputf.in
+|4,55,55,12,1532210111,"~/Documents/outputf.in"
+'8  55  12  ~/Documents/outputf.in
+|4,56,55,12,1532210111,"~/Documents/outputf.in"
+'9  55  12  ~/Documents/outputf.in
+|4,57,55,12,1532210111,"~/Documents/outputf.in"
 
 # Jumplist (newest first):
--'  167  0  ~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/contents/lecture-slides-and-files/lectureGraphs.py
-|4,39,167,0,1528315193,"~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/contents/lecture-slides-and-files/lectureGraphs.py"
--'  1  0  ~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/contents/lecture-slides-and-files/lectureGraphs.py
-|4,39,1,0,1528315180,"~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/contents/lecture-slides-and-files/lectureGraphs.py"
--'  1  0  ~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/common/scripts/bubble-popup-offline.js
-|4,39,1,0,1528230161,"~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/common/scripts/bubble-popup-offline.js"
--'  1  0  ~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/common/scripts/bubble-popup-offline.js
-|4,39,1,0,1528230161,"~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/common/scripts/bubble-popup-offline.js"
--'  11  0  ~/terminator-themes-cornucopia/themes
-|4,39,11,0,1527699872,"~/terminator-themes-cornucopia/themes"
--'  11  0  ~/terminator-themes-cornucopia/themes
-|4,39,11,0,1527699872,"~/terminator-themes-cornucopia/themes"
--'  11  0  ~/terminator-themes-cornucopia/themes
-|4,39,11,0,1527699872,"~/terminator-themes-cornucopia/themes"
--'  11  0  ~/terminator-themes-cornucopia/themes
-|4,39,11,0,1527699872,"~/terminator-themes-cornucopia/themes"
--'  12  0  ~/terminator-themes-cornucopia/themes
-|4,39,12,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  13  0  ~/terminator-themes-cornucopia/themes
-|4,39,13,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  12  0  ~/terminator-themes-cornucopia/themes
-|4,39,12,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  13  0  ~/terminator-themes-cornucopia/themes
-|4,39,13,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  12  0  ~/terminator-themes-cornucopia/themes
-|4,39,12,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  13  0  ~/terminator-themes-cornucopia/themes
-|4,39,13,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  12  0  ~/terminator-themes-cornucopia/themes
-|4,39,12,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  13  0  ~/terminator-themes-cornucopia/themes
-|4,39,13,0,1527699870,"~/terminator-themes-cornucopia/themes"
--'  1  0  ~/terminator-themes-cornucopia/themes
-|4,39,1,0,1527699866,"~/terminator-themes-cornucopia/themes"
--'  1  0  ~/terminator-themes-cornucopia/themes
-|4,39,1,0,1527699866,"~/terminator-themes-cornucopia/themes"
--'  1  0  ~/terminator-themes-cornucopia/themes
-|4,39,1,0,1527699866,"~/terminator-themes-cornucopia/themes"
--'  1  0  ~/terminator-themes-cornucopia/themes
-|4,39,1,0,1527699866,"~/terminator-themes-cornucopia/themes"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/terminator-themes-cornucopia/convert.py
-|4,39,1,0,1527699862,"~/terminator-themes-cornucopia/convert.py"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Videos/downloadVids.sh
-|4,39,1,0,1527535648,"~/Videos/downloadVids.sh"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/Documents/clang-format
-|4,39,1,0,1527104910,"~/Documents/clang-format"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
--'  1  0  ~/tutor
-|4,39,1,0,1525350108,"~/tutor"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  80  1  ~/Downloads/output_ethan.txt
+|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Downloads/output_ethan.txt
+|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  68  12  ~/Documents/outputf.in
+|4,39,68,12,1532210153,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  55  12  ~/Documents/outputf.in
+|4,39,55,12,1532210111,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  54  12  ~/Documents/outputf.in
+|4,39,54,12,1532209584,"~/Documents/outputf.in"
+-'  19  0  ~/Documents/outputf.in
+|4,39,19,0,1532209428,"~/Documents/outputf.in"
 
 # History of marks within files (newest to oldest):
+
+> ~/.tmux/.tmux.conf.local
+	*	1532382878	0
+	"	267	0
+
+> ~/.tmux/.tmux.conf
+	*	1532382877	0
+	"	74	0
+
+> ~/Documents/inputf.in
+	*	1532381169	0
+	"	6	0
+
+> ~/.tmux.conf.local
+	*	1532372702	0
+	"	4	40
+	^	4	41
+	.	5	0
+	+	5	0
+
+> ~/Downloads/output_ethan.txt
+	*	1532210181	0
+	"	80	1
+
+> ~/Documents/outputf.in
+	*	1532210172	0
+	"	80	1
+
+> ~/Downloads/output_let_it.txt
+	*	1532204773	0
+	"	5	8
+
+> ~/oh-my-fish/init.fish
+	*	1532185363	0
+	"	1	0
+
+> ~/Downloads/output (5).txt
+	*	1531167926	0
+	"	6	9
+
+> ~/Downloads/output (3).txt
+	*	1531167290	0
+	"	1	0
+
+> ~/Downloads/tourist (1).txt
+	*	1531164267	0
+	"	10	0
+
+> ~/Downloads/tourist.txt
+	*	1531164267	0
+	"	8	0
+
+> ~/Downloads/TabSessionManager - Backup/2018-06-27 01-29-03 (21 sessions).json
+	*	1530638634	0
+	"	8430	19
+
+> ~/Documents/TopCoder/template.tmpl
+	*	1530370489	0
+	"	21	0
+	.	13	0
+	+	13	0
+
+> ~/Documents/TopCoder/TCO17 India/EllysSquareWords.cpp
+	*	1530368303	0
+	"	1	0
+	^	43	12
+	.	43	12
+	+	41	0
+	+	42	37
+	+	43	8
+	+	44	8
+	+	43	12
+
+> ~/Documents/TopCoder/2018 Humblefool Cup/ExpectedMinimumPowerDiv2.sample
+	*	1530367533	0
+	"	1	0
 
 > ~/Documents/Machine Learning/Data Mining/6-0002-fall-2016/contents/lecture-slides-and-files/lectureGraphs.py
 	*	1528315191	0
@@ -636,10 +720,6 @@ $
 > ~/Downloads/astyle/as-gcc-exe/Makefile
 	*	1523606943	0
 	"	381	0
-
-> ~/Documents/inputf.in
-	*	1523597904	0
-	"	6	0
 
 > /tmp/tmp3f8kakj3
 	*	1523537783	0
@@ -1224,75 +1304,3 @@ $
 > /usr/share/vim/vim80/doc/eval.txt
 	*	1514829335	0
 	"	5115	7
-
-> ~/.vim/bundle/Vundle.vim/doc/vundle.txt
-	*	1514828879	0
-	"	127	39
-
-> ~/[Vundle] Installer
-	*	1514828352	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_3
-	*	1514749620	0
-	"	2	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_2
-	*	1514749607	0
-	"	5	6
-	.	1	0
-	+	1	0
-
-> ~/.vim/bundle/NERD_tree_1
-	*	1514749605	0
-	"	102	10
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_4
-	*	1514749599	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_5
-	*	1514749596	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/Competitive Programming/last.cpp
-	*	1514726103	0
-	"	1	0
-
-> ~/Documents/Competitive Programming/Geometry/output.txt
-	*	1514724494	0
-	"	3	0
-
-> ~/Documents/Competitive Programming/Geometry/any intersection.cpp
-	*	1514724488	0
-	"	160	0
-
-> ~/Documents/Competitive Programming/Geometry/1120.cpp
-	*	1514724483	0
-	"	39	0
-
-> ~/Documents/Competitive Programming/ttttt.cpp
-	*	1514724471	0
-	"	1	0
-
-> ~/Documents/minted.pdf
-	*	1514724452	0
-	"	1	0
-
-> ~/Documents/output.txt
-	*	1514724451	0
-	"	1	0
-
-> ~/Desktop/ButterRoti.tex
-	*	1514724443	0
-	"	17	28

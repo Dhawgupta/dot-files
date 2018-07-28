@@ -8,15 +8,22 @@
 ;=====================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
-background = #222
-background-alt = #444
-;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+;;background = ${xrdb:color0:#222}
+;background = #222
+;background-alt = #444
+;;foreground = ${xrdb:color7:#222}
+;foreground = #dfdfdf
+;foreground-alt = #555
+;primary = #ffb52a
+;secondary = #e60053
+;alert = #bd2c40
+background = ${xrdb:color0:#222}
+background-alt = ${xrdb:color1}
+foreground = ${xrdb:color7:#222}
+foreground-alt = ${xrdb:color7:#222}
+primary = ${xrdb:color1:#222}
+secondary = ${xrdb:color2:#222}
+alert = ${xrdb:color3:#222}
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -33,7 +40,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 4
+border-size = 0
 border-color = #00000000
 
 padding-left = 0
@@ -45,6 +52,7 @@ module-margin-right = 2
 font-0 = "Fantasque Sans Mono:pixelsize=12:weight=bold;1"
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Hack:pixelsize=10;1
+font-3 = FontAwesome:pixelsize=14;2 
 
 modules-left = bspwm i3
 modules-center = 
@@ -119,44 +127,176 @@ label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
 ; Separator in between workspaces
-; label-separator = |
+ label-separator = |
 
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
-
+label-active-font = 3
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 
-label-mode-padding = 2
+;ws-icon-0 = 1;ᚠ
+;ws-icon-1 = 2;ᚢ
+;ws-icon-2 = 3;ᚦ
+;ws-icon-3 = 4;ᚨ
+;ws-icon-4 = 5;ᚱ
+;ws-icon-5 = 6;ᚳ
+;ws-icon-6 = 7;ᚷ
+;ws-icon-7 = 8;ᚹ
+;ws-icon-8 = 9;ᛏ
+;ws-icon-9 = 10;ᛒ
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+
+;ws-icon-default = 
+
+;🐨🌿🍀🐌🐣🐙🐢🐋🐸🐧🐬🐲🐀🐘🐝🐥
+;ws-icon-0 = 1;🐨
+;ws-icon-1 = 2;🐌
+;ws-icon-2 = 3;🐙
+;ws-icon-3 = 4;🐢
+;ws-icon-4 = 5;🐥
+;ws-icon-5 = 6;🐘
+;ws-icon-6 = 7;🐝
+;ws-icon-7 = 8;🐸
+;ws-icon-8 = 9;🐧
+;ws-icon-9 = 10;🐲
+
+;♈♉♊♋♌♍♎♏♐♑
+;ws-icon-0 = 1;♈
+;ws-icon-1 = 2;♉
+;ws-icon-2 = 3;♊
+;ws-icon-3 = 4;♋
+;ws-icon-4 = 5;♌
+;ws-icon-5 = 6;♍
+;ws-icon-6 = 7;♎
+;ws-icon-7 = 8;♏
+;ws-icon-8 = 9;♐
+;ws-icon-9 = 10;♑
+
+label-mode-padding = 0
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
-label-focused = %index%
-label-focused-background = ${module/bspwm.label-focused-background}
-label-focused-underline = ${module/bspwm.label-focused-underline}
-label-focused-padding = ${module/bspwm.label-focused-padding}
+; Default: %icon%  %name%
+;label-focused = %index% %icon%
+;label-focused="%{F#685A4D}%index% %{F-}%icon%"
+label-focused= "%name% %icon%"
+;label-focused-background = #3C513E
+
+;label-focused-padding = 4
+
+
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
-label-unfocused-padding = ${module/bspwm.label-occupied-padding}
+label-unfocused = "%index% %icon%"
+label-unfocused-padding = 4
+label-unfocused-foreground = #8E9380
+
 
 ; visible = Active workspace on unfocused monitor
-label-visible = %index%
-label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
-label-visible-padding = ${self.label-focused-padding}
+;label-visible = %index% %icon%
+;label-visible-background = ${self.label-focused-background}
+;label-visible-underline = ${self.label-focused-underline}
+;label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %index%
-label-urgent-background = ${module/bspwm.label-urgent-background}
-label-urgent-padding = ${module/bspwm.label-urgent-padding}
+label-urgent = %index% %icon%
+label-urgent-foreground = #2F150F
+label-urgent-background = #A48078
+label-urgent-padding = 4
+;type = internal/i3
+;format = <label-state> <label-mode>
+;index-sort = true
+;wrapping-scroll = false
 
-; Separator in between workspaces
-; label-separator = |
+;; Only show workspaces on the same output as the bar
+;;pin-workspaces = true
+
+;;ws-icon-0 = 1;ᚠ
+;;ws-icon-1 = 2;ᚢ
+;;ws-icon-2 = 3;ᚦ
+;;ws-icon-3 = 4;ᚨ
+;;ws-icon-4 = 5;ᚱ
+;;ws-icon-5 = 6;ᚳ
+;;ws-icon-6 = 7;ᚷ
+;;ws-icon-7 = 8;ᚹ
+;;ws-icon-8 = 9;ᛏ
+;;ws-icon-9 = 10;ᛒ
+
+;;ws-icon-0 = 1;
+;;ws-icon-1 = 2;
+;;ws-icon-2 = 3;
+;;ws-icon-3 = 4;
+;;ws-icon-4 = 5;
+;;ws-icon-5 = 6;
+;;ws-icon-6 = 7;
+
+;;ws-icon-default = 
+
+;;🐨🌿🍀🐌🐣🐙🐢🐋🐸🐧🐬🐲🐀🐘🐝🐥
+;;ws-icon-0 = 1;🐨
+;;ws-icon-1 = 2;🐌
+;;ws-icon-2 = 3;🐙
+;;ws-icon-3 = 4;🐢
+;;ws-icon-4 = 5;🐥
+;;ws-icon-5 = 6;🐘
+;;ws-icon-6 = 7;🐝
+;;ws-icon-7 = 8;🐸
+;;ws-icon-8 = 9;🐧
+;;ws-icon-9 = 10;🐲
+
+;;♈♉♊♋♌♍♎♏♐♑
+;ws-icon-0 = 1;♈
+;ws-icon-1 = 2;♉
+;ws-icon-2 = 3;♊
+;ws-icon-3 = 4;♋
+;ws-icon-4 = 5;♌
+;ws-icon-5 = 6;♍
+;ws-icon-6 = 7;♎
+;ws-icon-7 = 8;♏
+;ws-icon-8 = 9;♐
+;ws-icon-9 = 10;♑
+;; Only show workspaces on the same output as the bar
+;;pin-workspaces = true
+
+;label-mode-padding = 2
+;label-mode-foreground = #000
+;label-mode-background = ${colors.primary}
+
+;; focused = Active workspace on focused monitor
+;label-focused = "%index% %icon%"
+;label-focused-background = ${module/bspwm.label-focused-background}
+;label-focused-underline = ${module/bspwm.label-focused-underline}
+;label-focused-padding = ${module/bspwm.label-focused-padding}
+
+;; unfocused = Inactive workspace on any monitor
+;label-unfocused = %index% %icon%
+;label-unfocused-padding = ${module/bspwm.label-occupied-padding}
+
+;; visible = Active workspace on unfocused monitor
+;label-visible = %index% %icon%
+;label-visible-background = ${self.label-focused-background}
+;label-visible-underline = ${self.label-focused-underline}
+;label-visible-padding = ${self.label-focused-padding}
+
+;; urgent = Workspace with urgency hint set
+;label-urgent = %index% %icon%
+;label-urgent-background = ${module/bspwm.label-urgent-background}
+;label-urgent-padding = ${module/bspwm.label-urgent-padding}
+
+;; Separator in between workspaces
+;; label-separator = |
 
 
 [module/mpd]
@@ -402,7 +542,7 @@ screenchange-reload = true
 ;compositing-border = over
 
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+margin-top = 0
+margin-bottom = 0
 
 ; vim:ft=dosini

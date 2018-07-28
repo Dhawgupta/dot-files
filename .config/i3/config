@@ -93,10 +93,15 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1 "
-set $workspace2 "2: Editor "
-set $workspace3 "3: Browser "
-set $workspace4 "4: Spotify "
+#set $workspace1 "1 "
+#set $workspace2 "2: Editor "
+#set $workspace3 "3: Browser "
+#set $workspace4 "4: Spotify "
+
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+set $workspace4 "4"
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -164,13 +169,27 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-#########################################
-# class                     border      backgr.     text
-client.focused				#d75f87     #d75f87     #181818     #d75f87
-client.unfocused            #181818     #181818     #315858     #181818
-client.focused_inactive     #181818     #181818     #2c2e2f     #181818
-client.urgent               #383a3b     #00ccff     #ee0000     #181818
-#########################################
+##########################################
+## class                     border      backgr.     text
+#client.focused				#d75f87     #d75f87     #181818     #d75f87
+#client.unfocused            #181818     #181818     #315858     #181818
+#client.focused_inactive     #181818     #181818     #2c2e2f     #181818
+#client.urgent               #383a3b     #00ccff     #ee0000     #181818
+##########################################
+
+set_from_resource $fg i3wm.color7
+set_from_resource $bg i3wm.color2
+set_from_resource $ac i3wm.color4
+set_from_resource $dc i3wm.color3
+
+# class                 border  backgr. text indicator child_border
+client.focused          $ac     $ac     $fg  $bg       $bg
+client.focused_inactive $ac     $bg     $fg  $bg       $bg
+client.unfocused        $ac     $bg     $fg  $bg       $bg
+client.urgent           $ac     $bg     $fg  $bg       $bg
+client.placeholder      $ac     $bg     $fg  $bg       $bg
+
+client.background       $bg
 
 bindsym $mod+shift+x exec "bash ~/lock.sh"
 

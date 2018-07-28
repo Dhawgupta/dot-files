@@ -1,5 +1,3 @@
-search Shell
-search Vid
 search practice
 search flex
 search Lex
@@ -24,7 +22,6 @@ search *top down*
 search *top*
 find top
 find do
-
 find CSj
 search /CS341
 find mus
@@ -39,12 +36,15 @@ shell rm -f code-linux.tar.gz
 delete
 shell ls | grep crdownload
 find vi
-open_with nvim
 open_with 0
 open_with 1
-open_with 
 find
 find dow
 find Sout
 cd .config/
 find scr
+
+open_with nvim
+find .lo
+find fon
+open_with 
