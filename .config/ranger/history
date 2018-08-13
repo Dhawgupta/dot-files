@@ -1,4 +1,3 @@
-search practice
 search flex
 search Lex
 search lex
@@ -48,3 +47,4 @@ open_with nvim
 find .lo
 find fon
 open_with 
+search heavy

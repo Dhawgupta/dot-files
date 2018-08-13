@@ -1,4 +1,5 @@
 [global_config]
+  borderless = True
   enabled_plugins = CustomCommandsMenu, TerminatorThemes, APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
   title_inactive_bg_color = "#272822"
   title_inactive_fg_color = "#f8f8f2"

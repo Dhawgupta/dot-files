@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Impossible
+~MSle0~/0
 
 # Last Substitute Search Pattern:
 ~MSle0&FwdingTbl
@@ -20,10 +20,10 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1533816103,,"q"
 :qa
 |2,0,1532382880,,"qa"
-:q
-|2,0,1532382878,,"q"
 :wq
 |2,0,1532372703,,"wq"
 :Q
@@ -140,6 +140,8 @@ $
 |2,0,1514701055,,"set wrap?"
 
 # Search String History (newest to oldest):
+?/0
+|2,1,1533423822,47,"0"
 ? \s\+$
 |2,1,1532210109,,"\\s\\+$"
 ?/Impossible
@@ -243,34 +245,174 @@ $
 |3,0,36,0,1,0,1530368295," "
 
 # File marks:
-'0  267  0  ~/.tmux/.tmux.conf.local
-|4,48,267,0,1532382880,"~/.tmux/.tmux.conf.local"
-'1  6  0  ~/Documents/inputf.in
-|4,49,6,0,1532381171,"~/Documents/inputf.in"
-'2  4  40  ~/.tmux.conf.local
-|4,50,4,40,1532372703,"~/.tmux.conf.local"
-'3  80  1  ~/Downloads/output_ethan.txt
-|4,51,80,1,1532210184,"~/Downloads/output_ethan.txt"
-'4  68  12  ~/Documents/outputf.in
-|4,52,68,12,1532210153,"~/Documents/outputf.in"
-'5  68  12  ~/Documents/outputf.in
-|4,53,68,12,1532210153,"~/Documents/outputf.in"
-'6  55  12  ~/Documents/outputf.in
-|4,54,55,12,1532210111,"~/Documents/outputf.in"
-'7  55  12  ~/Documents/outputf.in
-|4,55,55,12,1532210111,"~/Documents/outputf.in"
-'8  55  12  ~/Documents/outputf.in
-|4,56,55,12,1532210111,"~/Documents/outputf.in"
+'0  1  0  ~/Documents/lex/testing/Shell/Makefile
+|4,48,1,0,1533816103,"~/Documents/lex/testing/Shell/Makefile"
+'1  11  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,49,11,4,1533504147,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+'2  356  1  ~/Downloads/jacks_candy_shoptxt
+|4,50,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
+'3  267  0  ~/.tmux/.tmux.conf.local
+|4,51,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+'4  6  0  ~/Documents/inputf.in
+|4,52,6,0,1532381171,"~/Documents/inputf.in"
+'5  4  40  ~/.tmux.conf.local
+|4,53,4,40,1532372703,"~/.tmux.conf.local"
+'6  80  1  ~/Downloads/output_ethan.txt
+|4,54,80,1,1532210184,"~/Downloads/output_ethan.txt"
+'7  68  12  ~/Documents/outputf.in
+|4,55,68,12,1532210153,"~/Documents/outputf.in"
+'8  68  12  ~/Documents/outputf.in
+|4,56,68,12,1532210153,"~/Documents/outputf.in"
 '9  55  12  ~/Documents/outputf.in
 |4,57,55,12,1532210111,"~/Documents/outputf.in"
 
 # Jumplist (newest first):
+-'  1  0  ~/Documents/lex/testing/Shell/Makefile
+|4,39,1,0,1533816103,"~/Documents/lex/testing/Shell/Makefile"
+-'  11  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,11,4,1533504147,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  11  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,11,4,1533504147,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  5  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,5,4,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  14  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,14,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  1  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,1,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  5  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,5,4,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  14  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,14,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  1  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,39,1,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+-'  356  1  ~/Downloads/jacks_candy_shoptxt
+|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
+-'  356  1  ~/Downloads/jacks_candy_shoptxt
+|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
+-'  356  1  ~/Downloads/jacks_candy_shoptxt
+|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
+-'  356  1  ~/Downloads/jacks_candy_shoptxt
+|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
+-'  421  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
+-'  421  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
+-'  421  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
+-'  421  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
+-'  1  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
+-'  1  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
+-'  1  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
+-'  1  0  ~/Downloads/jacks_candy_shoptxt
+|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+-'  267  0  ~/.tmux/.tmux.conf.local
+|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
 -'  267  0  ~/.tmux/.tmux.conf.local
 |4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
 -'  6  0  ~/Documents/inputf.in
 |4,39,6,0,1532381171,"~/Documents/inputf.in"
 -'  6  0  ~/Documents/inputf.in
 |4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  6  0  ~/Documents/inputf.in
+|4,39,6,0,1532381171,"~/Documents/inputf.in"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
+-'  4  40  ~/.tmux.conf.local
+|4,39,4,40,1532372703,"~/.tmux.conf.local"
 -'  4  40  ~/.tmux.conf.local
 |4,39,4,40,1532372703,"~/.tmux.conf.local"
 -'  4  40  ~/.tmux.conf.local
@@ -287,186 +429,54 @@ $
 |4,39,1,0,1532372685,"~/.tmux.conf.local"
 -'  1  0  ~/.tmux.conf.local
 |4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  80  1  ~/Downloads/output_ethan.txt
-|4,39,80,1,1532210184,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Downloads/output_ethan.txt
-|4,39,68,12,1532210173,"~/Downloads/output_ethan.txt"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  68  12  ~/Documents/outputf.in
-|4,39,68,12,1532210153,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  55  12  ~/Documents/outputf.in
-|4,39,55,12,1532210111,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  54  12  ~/Documents/outputf.in
-|4,39,54,12,1532209584,"~/Documents/outputf.in"
--'  19  0  ~/Documents/outputf.in
-|4,39,19,0,1532209428,"~/Documents/outputf.in"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/.tmux.conf.local
+|4,39,1,0,1532372685,"~/.tmux.conf.local"
 
 # History of marks within files (newest to oldest):
+
+> ~/Documents/lex/testing/Shell/Makefile
+	*	1533816102	0
+	"	1	0
+
+> ~/Downloads/jacks_candy_shoptxt
+	*	1533423831	0
+	"	356	1
 
 > ~/.tmux/.tmux.conf.local
 	*	1532382878	0
@@ -1296,11 +1306,3 @@ $
 > ~/Documents/Competitive Programming/Implemented codes and algorithms/Random/randprime.cpp
 	*	1514834312	0
 	"	35	21
-
-> /usr/share/vim/vim80/doc/filetype.txt
-	*	1514834310	0
-	"	86	0
-
-> /usr/share/vim/vim80/doc/eval.txt
-	*	1514829335	0
-	"	5115	7

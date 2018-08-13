@@ -1,5 +1,4 @@
 set shell=/bin/bash
-set autoread
 
 call plug#begin('~/.local/share/nvim/plugged')
   "Semantic Autocomplete
@@ -94,6 +93,11 @@ call plug#begin('~/.local/share/nvim/plugged')
   "Plugin for vim-tmux navigator
   Plug 'christoomey/vim-tmux-navigator'
 
+  ""Plugin for vim autoread
+  "Plug 'djoshea/vim-autoread'
+
+  "Plugin for vim autoread
+  Plug 'Carpetsmoker/auto_autoread.vim'
   call plug#end()
 "
 "
@@ -123,6 +127,8 @@ set whichwrap+=[,]
 set cursorline
 "Shows the current buffer path
 set statusline+=%F
+"reload the file
+nnoremap <silent> <Tab> :checktime<CR>
 "----------------------------------------
 "
 "
@@ -281,4 +287,10 @@ nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
-"--------------------------------------------
+"-------------------------------------------
+"
+"
+"------------Neovim python settings---------
+"let g:python_host_prog  = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3.6'
+let g:loaded_python_provider = 0
