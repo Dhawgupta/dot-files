@@ -194,7 +194,7 @@ let g:asyncrun_bell = 1
 "ring the bell to notify you job finished
 "F10 to toggle quickfix window
 nnoremap <F10> :call asyncrun#quickfix_toggle(10)<cr>
-nnoremap <silent> <F2> :AsyncRun -cwd=$(VIM_FILEDIR) -save=2 -post=checktime make '%:t:r' && timeout 4s ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in<CR>:checktime<CR>
+nnoremap <silent> <F2> :AsyncRun -cwd=$(VIM_FILEDIR) -save=2 -post=checktime make '%:t:r' && timeout 20s ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in<CR>:checktime<CR>
 "nnoremap <silent> <F2> :AsyncRun -save=2 -post=checktime cd '$(VIM_FILEDIR)' && g++ -Wall -Wfatal-errors -g -O3 -Daishwarya_tandon_is_best '%:t' -o '%:t:r' && ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in <CR>
 "nnoremap <silent> <F2> :AsyncRun -save=2 -post=checktime cd '$(VIM_FILEDIR)' && g++ 975e.cpp<CR>
 nnoremap <silent> <F4> :AsyncRun -cwd=$(VIM_FILEDIR) ~/InsertInMakeFile.sh <cr>

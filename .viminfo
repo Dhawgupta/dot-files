@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1533816103,,"q"
+|2,0,1534349653,,"q"
 :qa
 |2,0,1532382880,,"qa"
 :wq
@@ -245,230 +245,242 @@ $
 |3,0,36,0,1,0,1530368295," "
 
 # File marks:
-'0  1  0  ~/Documents/lex/testing/Shell/Makefile
-|4,48,1,0,1533816103,"~/Documents/lex/testing/Shell/Makefile"
-'1  11  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,49,11,4,1533504147,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
-'2  356  1  ~/Downloads/jacks_candy_shoptxt
-|4,50,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
-'3  267  0  ~/.tmux/.tmux.conf.local
-|4,51,267,0,1532382880,"~/.tmux/.tmux.conf.local"
-'4  6  0  ~/Documents/inputf.in
-|4,52,6,0,1532381171,"~/Documents/inputf.in"
-'5  4  40  ~/.tmux.conf.local
-|4,53,4,40,1532372703,"~/.tmux.conf.local"
-'6  80  1  ~/Downloads/output_ethan.txt
-|4,54,80,1,1532210184,"~/Downloads/output_ethan.txt"
-'7  68  12  ~/Documents/outputf.in
-|4,55,68,12,1532210153,"~/Documents/outputf.in"
-'8  68  12  ~/Documents/outputf.in
-|4,56,68,12,1532210153,"~/Documents/outputf.in"
-'9  55  12  ~/Documents/outputf.in
-|4,57,55,12,1532210111,"~/Documents/outputf.in"
+'0  1  0  ~/Documents/Resume/my_cv.aux
+|4,48,1,0,1534763288,"~/Documents/Resume/my_cv.aux"
+'1  6  0  ~/Documents/Resume/my_cv.tex
+|4,49,6,0,1534349653,"~/Documents/Resume/my_cv.tex"
+'2  401  0  ~/Documents/Resume/my_cv.log
+|4,50,401,0,1534349605,"~/Documents/Resume/my_cv.log"
+'3  1  0  ~/Documents/lex/testing/Shell/Makefile
+|4,51,1,0,1533816103,"~/Documents/lex/testing/Shell/Makefile"
+'4  11  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
+|4,52,11,4,1533504147,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
+'5  356  1  ~/Downloads/jacks_candy_shoptxt
+|4,53,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
+'6  267  0  ~/.tmux/.tmux.conf.local
+|4,54,267,0,1532382880,"~/.tmux/.tmux.conf.local"
+'7  6  0  ~/Documents/inputf.in
+|4,55,6,0,1532381171,"~/Documents/inputf.in"
+'8  4  40  ~/.tmux.conf.local
+|4,56,4,40,1532372703,"~/.tmux.conf.local"
+'9  80  1  ~/Downloads/output_ethan.txt
+|4,57,80,1,1532210184,"~/Downloads/output_ethan.txt"
 
 # Jumplist (newest first):
--'  1  0  ~/Documents/lex/testing/Shell/Makefile
-|4,39,1,0,1533816103,"~/Documents/lex/testing/Shell/Makefile"
--'  11  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,11,4,1533504147,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  11  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,11,4,1533504147,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  5  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,5,4,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  14  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,14,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  1  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,1,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  5  4  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,5,4,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  14  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,14,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  1  0  ~/Documents/Competitive Programming/Hackercup2018/Round2/Startify
-|4,39,1,0,1533504145,"~/Documents/Competitive Programming/Hackercup2018/Round2/Startify"
--'  356  1  ~/Downloads/jacks_candy_shoptxt
-|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
--'  356  1  ~/Downloads/jacks_candy_shoptxt
-|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
--'  356  1  ~/Downloads/jacks_candy_shoptxt
-|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
--'  356  1  ~/Downloads/jacks_candy_shoptxt
-|4,39,356,1,1533423832,"~/Downloads/jacks_candy_shoptxt"
--'  421  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
--'  421  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
--'  421  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
--'  421  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,421,0,1533423822,"~/Downloads/jacks_candy_shoptxt"
--'  1  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
--'  1  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
--'  1  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
--'  1  0  ~/Downloads/jacks_candy_shoptxt
-|4,39,1,0,1533423805,"~/Downloads/jacks_candy_shoptxt"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  267  0  ~/.tmux/.tmux.conf.local
-|4,39,267,0,1532382880,"~/.tmux/.tmux.conf.local"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  6  0  ~/Documents/inputf.in
-|4,39,6,0,1532381171,"~/Documents/inputf.in"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  4  40  ~/.tmux.conf.local
-|4,39,4,40,1532372703,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
--'  1  0  ~/.tmux.conf.local
-|4,39,1,0,1532372685,"~/.tmux.conf.local"
+-'  1  0  ~/Documents/Resume/my_cv.aux
+|4,39,1,0,1534763288,"~/Documents/Resume/my_cv.aux"
+-'  6  0  ~/Documents/Resume/my_cv.tex
+|4,39,6,0,1534349653,"~/Documents/Resume/my_cv.tex"
+-'  6  0  ~/Documents/Resume/my_cv.tex
+|4,39,6,0,1534349653,"~/Documents/Resume/my_cv.tex"
+-'  17  0  ~/Documents/Resume/my_cv.tex
+|4,39,17,0,1534349648,"~/Documents/Resume/my_cv.tex"
+-'  17  0  ~/Documents/Resume/my_cv.tex
+|4,39,17,0,1534349648,"~/Documents/Resume/my_cv.tex"
+-'  19  0  ~/Documents/Resume/my_cv.tex
+|4,39,19,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  30  0  ~/Documents/Resume/my_cv.tex
+|4,39,30,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  35  0  ~/Documents/Resume/my_cv.tex
+|4,39,35,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  40  0  ~/Documents/Resume/my_cv.tex
+|4,39,40,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  60  0  ~/Documents/Resume/my_cv.tex
+|4,39,60,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  19  0  ~/Documents/Resume/my_cv.tex
+|4,39,19,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  30  0  ~/Documents/Resume/my_cv.tex
+|4,39,30,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  35  0  ~/Documents/Resume/my_cv.tex
+|4,39,35,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  40  0  ~/Documents/Resume/my_cv.tex
+|4,39,40,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  60  0  ~/Documents/Resume/my_cv.tex
+|4,39,60,0,1534349647,"~/Documents/Resume/my_cv.tex"
+-'  38  0  ~/Documents/Resume/my_cv.tex
+|4,39,38,0,1534349646,"~/Documents/Resume/my_cv.tex"
+-'  34  0  ~/Documents/Resume/my_cv.tex
+|4,39,34,0,1534349646,"~/Documents/Resume/my_cv.tex"
+-'  38  0  ~/Documents/Resume/my_cv.tex
+|4,39,38,0,1534349646,"~/Documents/Resume/my_cv.tex"
+-'  34  0  ~/Documents/Resume/my_cv.tex
+|4,39,34,0,1534349646,"~/Documents/Resume/my_cv.tex"
+-'  4  0  ~/Documents/Resume/my_cv.tex
+|4,39,4,0,1534349645,"~/Documents/Resume/my_cv.tex"
+-'  1  0  ~/Documents/Resume/my_cv.tex
+|4,39,1,0,1534349645,"~/Documents/Resume/my_cv.tex"
+-'  4  0  ~/Documents/Resume/my_cv.tex
+|4,39,4,0,1534349645,"~/Documents/Resume/my_cv.tex"
+-'  1  0  ~/Documents/Resume/my_cv.tex
+|4,39,1,0,1534349645,"~/Documents/Resume/my_cv.tex"
+-'  63  0  ~/Documents/Resume/my_cv.tex
+|4,39,63,0,1534349640,"~/Documents/Resume/my_cv.tex"
+-'  87  0  ~/Documents/Resume/my_cv.tex
+|4,39,87,0,1534349640,"~/Documents/Resume/my_cv.tex"
+-'  63  0  ~/Documents/Resume/my_cv.tex
+|4,39,63,0,1534349640,"~/Documents/Resume/my_cv.tex"
+-'  87  0  ~/Documents/Resume/my_cv.tex
+|4,39,87,0,1534349640,"~/Documents/Resume/my_cv.tex"
+-'  95  0  ~/Documents/Resume/my_cv.tex
+|4,39,95,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  103  0  ~/Documents/Resume/my_cv.tex
+|4,39,103,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  106  0  ~/Documents/Resume/my_cv.tex
+|4,39,106,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  108  0  ~/Documents/Resume/my_cv.tex
+|4,39,108,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  130  0  ~/Documents/Resume/my_cv.tex
+|4,39,130,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  95  0  ~/Documents/Resume/my_cv.tex
+|4,39,95,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  103  0  ~/Documents/Resume/my_cv.tex
+|4,39,103,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  106  0  ~/Documents/Resume/my_cv.tex
+|4,39,106,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  108  0  ~/Documents/Resume/my_cv.tex
+|4,39,108,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  130  0  ~/Documents/Resume/my_cv.tex
+|4,39,130,0,1534349639,"~/Documents/Resume/my_cv.tex"
+-'  137  0  ~/Documents/Resume/my_cv.tex
+|4,39,137,0,1534349638,"~/Documents/Resume/my_cv.tex"
+-'  140  0  ~/Documents/Resume/my_cv.tex
+|4,39,140,0,1534349638,"~/Documents/Resume/my_cv.tex"
+-'  142  0  ~/Documents/Resume/my_cv.tex
+|4,39,142,0,1534349638,"~/Documents/Resume/my_cv.tex"
+-'  137  0  ~/Documents/Resume/my_cv.tex
+|4,39,137,0,1534349638,"~/Documents/Resume/my_cv.tex"
+-'  140  0  ~/Documents/Resume/my_cv.tex
+|4,39,140,0,1534349638,"~/Documents/Resume/my_cv.tex"
+-'  142  0  ~/Documents/Resume/my_cv.tex
+|4,39,142,0,1534349638,"~/Documents/Resume/my_cv.tex"
+-'  170  0  ~/Documents/Resume/my_cv.tex
+|4,39,170,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  180  0  ~/Documents/Resume/my_cv.tex
+|4,39,180,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  185  0  ~/Documents/Resume/my_cv.tex
+|4,39,185,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  193  0  ~/Documents/Resume/my_cv.tex
+|4,39,193,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  170  0  ~/Documents/Resume/my_cv.tex
+|4,39,170,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  180  0  ~/Documents/Resume/my_cv.tex
+|4,39,180,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  185  0  ~/Documents/Resume/my_cv.tex
+|4,39,185,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  193  0  ~/Documents/Resume/my_cv.tex
+|4,39,193,0,1534349637,"~/Documents/Resume/my_cv.tex"
+-'  198  0  ~/Documents/Resume/my_cv.tex
+|4,39,198,0,1534349636,"~/Documents/Resume/my_cv.tex"
+-'  204  0  ~/Documents/Resume/my_cv.tex
+|4,39,204,0,1534349636,"~/Documents/Resume/my_cv.tex"
+-'  210  0  ~/Documents/Resume/my_cv.tex
+|4,39,210,0,1534349636,"~/Documents/Resume/my_cv.tex"
+-'  198  0  ~/Documents/Resume/my_cv.tex
+|4,39,198,0,1534349636,"~/Documents/Resume/my_cv.tex"
+-'  204  0  ~/Documents/Resume/my_cv.tex
+|4,39,204,0,1534349636,"~/Documents/Resume/my_cv.tex"
+-'  210  0  ~/Documents/Resume/my_cv.tex
+|4,39,210,0,1534349636,"~/Documents/Resume/my_cv.tex"
+-'  214  0  ~/Documents/Resume/my_cv.tex
+|4,39,214,0,1534349635,"~/Documents/Resume/my_cv.tex"
+-'  214  0  ~/Documents/Resume/my_cv.tex
+|4,39,214,0,1534349635,"~/Documents/Resume/my_cv.tex"
+-'  219  0  ~/Documents/Resume/my_cv.tex
+|4,39,219,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  224  0  ~/Documents/Resume/my_cv.tex
+|4,39,224,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  232  0  ~/Documents/Resume/my_cv.tex
+|4,39,232,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  234  0  ~/Documents/Resume/my_cv.tex
+|4,39,234,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  219  0  ~/Documents/Resume/my_cv.tex
+|4,39,219,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  224  0  ~/Documents/Resume/my_cv.tex
+|4,39,224,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  232  0  ~/Documents/Resume/my_cv.tex
+|4,39,232,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  234  0  ~/Documents/Resume/my_cv.tex
+|4,39,234,0,1534349634,"~/Documents/Resume/my_cv.tex"
+-'  236  0  ~/Documents/Resume/my_cv.tex
+|4,39,236,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  239  0  ~/Documents/Resume/my_cv.tex
+|4,39,239,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  241  0  ~/Documents/Resume/my_cv.tex
+|4,39,241,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  259  0  ~/Documents/Resume/my_cv.tex
+|4,39,259,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  262  0  ~/Documents/Resume/my_cv.tex
+|4,39,262,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  284  0  ~/Documents/Resume/my_cv.tex
+|4,39,284,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  236  0  ~/Documents/Resume/my_cv.tex
+|4,39,236,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  239  0  ~/Documents/Resume/my_cv.tex
+|4,39,239,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  241  0  ~/Documents/Resume/my_cv.tex
+|4,39,241,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  259  0  ~/Documents/Resume/my_cv.tex
+|4,39,259,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  262  0  ~/Documents/Resume/my_cv.tex
+|4,39,262,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  284  0  ~/Documents/Resume/my_cv.tex
+|4,39,284,0,1534349633,"~/Documents/Resume/my_cv.tex"
+-'  287  0  ~/Documents/Resume/my_cv.tex
+|4,39,287,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  293  0  ~/Documents/Resume/my_cv.tex
+|4,39,293,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  318  0  ~/Documents/Resume/my_cv.tex
+|4,39,318,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  339  0  ~/Documents/Resume/my_cv.tex
+|4,39,339,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  350  0  ~/Documents/Resume/my_cv.tex
+|4,39,350,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  287  0  ~/Documents/Resume/my_cv.tex
+|4,39,287,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  293  0  ~/Documents/Resume/my_cv.tex
+|4,39,293,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  318  0  ~/Documents/Resume/my_cv.tex
+|4,39,318,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  339  0  ~/Documents/Resume/my_cv.tex
+|4,39,339,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  350  0  ~/Documents/Resume/my_cv.tex
+|4,39,350,0,1534349632,"~/Documents/Resume/my_cv.tex"
+-'  360  13  ~/Documents/Resume/my_cv.tex
+|4,39,360,13,1534349631,"~/Documents/Resume/my_cv.tex"
+-'  360  13  ~/Documents/Resume/my_cv.tex
+|4,39,360,13,1534349631,"~/Documents/Resume/my_cv.tex"
+-'  261  0  ~/Documents/Resume/my_cv.tex
+|4,39,261,0,1534349630,"~/Documents/Resume/my_cv.tex"
+-'  258  0  ~/Documents/Resume/my_cv.tex
+|4,39,258,0,1534349630,"~/Documents/Resume/my_cv.tex"
+-'  261  0  ~/Documents/Resume/my_cv.tex
+|4,39,261,0,1534349630,"~/Documents/Resume/my_cv.tex"
+-'  258  0  ~/Documents/Resume/my_cv.tex
+|4,39,258,0,1534349630,"~/Documents/Resume/my_cv.tex"
+-'  401  0  ~/Documents/Resume/my_cv.log
+|4,39,401,0,1534349605,"~/Documents/Resume/my_cv.log"
+-'  401  0  ~/Documents/Resume/my_cv.log
+|4,39,401,0,1534349605,"~/Documents/Resume/my_cv.log"
+-'  367  0  ~/Documents/Resume/my_cv.log
+|4,39,367,0,1534349604,"~/Documents/Resume/my_cv.log"
+-'  363  0  ~/Documents/Resume/my_cv.log
+|4,39,363,0,1534349604,"~/Documents/Resume/my_cv.log"
+-'  361  0  ~/Documents/Resume/my_cv.log
+|4,39,361,0,1534349604,"~/Documents/Resume/my_cv.log"
 
 # History of marks within files (newest to oldest):
+
+> ~/Documents/Resume/my_cv.aux
+	*	1534763285	0
+	"	1	0
+
+> ~/Documents/Resume/my_cv.tex
+	*	1534349652	0
+	"	6	0
+
+> ~/Documents/Resume/my_cv.log
+	*	1534349604	0
+	"	401	0
 
 > ~/Documents/lex/testing/Shell/Makefile
 	*	1533816102	0
@@ -1292,17 +1304,3 @@ $
 > ~/Documents/Competitive Programming/Geometry/input.txt
 	*	1514835373	0
 	"	1	1
-
-> ~/Documents/Competitive Programming/Code/Temp
-	*	1514835345	0
-	"	96	0
-
-> ~/NERD_tree_1
-	*	1514834314	0
-	"	11	7
-	.	1	0
-	+	1	0
-
-> ~/Documents/Competitive Programming/Implemented codes and algorithms/Random/randprime.cpp
-	*	1514834312	0
-	"	35	21
