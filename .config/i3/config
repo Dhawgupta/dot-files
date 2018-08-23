@@ -236,3 +236,7 @@ bindsym XF86AudioMute exec $volumepath/volume -m -n -t $statuscmd -u $statussig
 
 #exec_always compton -bf
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+#disable borders/title bar in i3
+for_window [class="^.*"] border pixel 1
+new_window 1pixel
