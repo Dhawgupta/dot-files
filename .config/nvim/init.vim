@@ -98,6 +98,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 
   "Plugin for vim autoread
   Plug 'Carpetsmoker/auto_autoread.vim'
+
+  "Plugin for rainbow paranthesis
+  Plug 'junegunn/rainbow_parentheses.vim'
   call plug#end()
 "
 "
@@ -294,3 +297,14 @@ nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
 "let g:python_host_prog  = '/usr/bin/python'
 let g:python3_host_prog = '/usr/bin/python3.6'
 let g:loaded_python_provider = 0
+"------------Rainbow Parenthesis Colors-----
+augroup rainbow_lisp
+  autocmd!
+  autocmd FileType lisp,clojure,scheme,cpp,c RainbowParentheses
+augroup END
+
+let g:rainbow#max_level = 16
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+
+" List of colors that you do not want. ANSI code or #RRGGBB
+"let g:rainbow#blacklist = [233, 234]

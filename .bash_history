@@ -1,14 +1,5 @@
 ./pstring.sh
 ./pstring.sh
-./pstring.sh
-./pstring.sh
-./pstring.sh
-./pstring.sh
-./pstring.sh
-./pstring.sh
-gcc -std=gnu11 dstring.c -o dstring
-./pstring.sh
-./pstring.sh
 gcc -std=gnu11 dstring.c -o dstring
 ./pstring.sh
 ./pstring.sh
@@ -497,4 +488,13 @@ exit
 (cat .cache/wal/sequences &)
 ls .cache/wal | grep seque
 nvim .cache/wal/sequences
+exit
+ls
+cat ../pacman-list.txt | xargs curl -O
+exit
+exit() exit
+exit
+str=""hello""
+str
+str[:2]
 exit
