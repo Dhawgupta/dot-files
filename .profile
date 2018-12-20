@@ -22,3 +22,5 @@ if [ -d "$HOME/bin" ] ; then
 else
     PATH="$PATH:$HOME/nachos/bin:$HOME/mips-x86.linux-xgcc"
 fi
+
+export PATH="$HOME/.cargo/bin:$PATH"

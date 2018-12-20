@@ -280,7 +280,7 @@ let g:indentLine_char = '▏'
 "-------------Searching---------------------
 set hlsearch
 set incsearch
-set ignorecase
+"set ignorecase
 set smartcase
 "-------------------------------------------
 "

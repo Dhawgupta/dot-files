@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1541334202,,"q"
+|2,0,1542778317,,"q"
 :'<,'>y+
 |2,0,1540326181,,"'<,'>y+"
 :Q
@@ -245,34 +245,122 @@ $
 |3,1,36,0,1,0,1540606123,"<FILL IN>"
 
 # File marks:
-'0  1  248  ~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt
-|4,48,1,248,1541334202,"~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt"
-'1  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
-|4,49,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
-'2  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,50,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
-'3  27  0  ~/Documents/Shristi/cover_letter.tex
-|4,51,27,0,1540326187,"~/Documents/Shristi/cover_letter.tex"
-'4  48  14  ~/Documents/Competitive Programming/Code/ICPC/REDCGAME.cpp
-|4,52,48,14,1540323841,"~/Documents/Competitive Programming/Code/ICPC/REDCGAME.cpp"
-'5  23  24  ~/Downloads/scott.pilgrim.vs.the.world.(3964800).nfo
-|4,53,23,24,1539874679,"~/Downloads/scott.pilgrim.vs.the.world.(3964800).nfo"
-'6  1  0  ~/Documents/CS564/Assignment_1/P1.ipynb
-|4,54,1,0,1535550594,"~/Documents/CS564/Assignment_1/P1.ipynb"
-'7  15  17  ~/Documents/Machine Learning/Sci-Hub/manifest.json
-|4,55,15,17,1535549158,"~/Documents/Machine Learning/Sci-Hub/manifest.json"
-'8  72  8  ~/Documents/CS564/Assignment_1/winequality.names.txt_
-|4,56,72,8,1535219443,"~/Documents/CS564/Assignment_1/winequality.names.txt_"
-'9  58  0  ~/Documents/CS564/winequality.names.txt
-|4,57,58,0,1535114298,"~/Documents/CS564/winequality.names.txt"
+'0  1  0  ~/Documents/TermPaper/midterm.aux
+|4,48,1,0,1542778317,"~/Documents/TermPaper/midterm.aux"
+'1  101  0  ~/Documents/AI571/Lab8/A2.py
+|4,49,101,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+'2  1  248  ~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt
+|4,50,1,248,1541334202,"~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt"
+'3  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
+|4,51,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+'4  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,52,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+'5  27  0  ~/Documents/Shristi/cover_letter.tex
+|4,53,27,0,1540326187,"~/Documents/Shristi/cover_letter.tex"
+'6  48  14  ~/Documents/Competitive Programming/Code/ICPC/REDCGAME.cpp
+|4,54,48,14,1540323841,"~/Documents/Competitive Programming/Code/ICPC/REDCGAME.cpp"
+'7  23  24  ~/Downloads/scott.pilgrim.vs.the.world.(3964800).nfo
+|4,55,23,24,1539874679,"~/Downloads/scott.pilgrim.vs.the.world.(3964800).nfo"
+'8  1  0  ~/Documents/CS564/Assignment_1/P1.ipynb
+|4,56,1,0,1535550594,"~/Documents/CS564/Assignment_1/P1.ipynb"
+'9  15  17  ~/Documents/Machine Learning/Sci-Hub/manifest.json
+|4,57,15,17,1535549158,"~/Documents/Machine Learning/Sci-Hub/manifest.json"
 
 # Jumplist (newest first):
+-'  1  0  ~/Documents/TermPaper/midterm.aux
+|4,39,1,0,1542778317,"~/Documents/TermPaper/midterm.aux"
+-'  101  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,101,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  89  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,89,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  79  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,79,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  62  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,62,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  49  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,49,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  42  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,42,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  32  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,32,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  101  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,101,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  89  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,89,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  79  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,79,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  62  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,62,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  49  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,49,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  42  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,42,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  32  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,32,0,1542630277,"~/Documents/AI571/Lab8/A2.py"
+-'  24  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,24,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  17  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,17,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  5  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,5,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  1  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,1,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  24  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,24,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  17  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,17,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  5  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,5,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  1  0  ~/Documents/AI571/Lab8/A2.py
+|4,39,1,0,1542630276,"~/Documents/AI571/Lab8/A2.py"
+-'  1  248  ~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt
+|4,39,1,248,1541334202,"~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt"
+-'  1  248  ~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt
+|4,39,1,248,1541334202,"~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt"
+-'  1  248  ~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt
+|4,39,1,248,1541334202,"~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt"
 -'  1  248  ~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt
 |4,39,1,248,1541334202,"~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt"
 -'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
 |4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
 -'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
 |4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+-'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
+|4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+-'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
+|4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+-'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
+|4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+-'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
+|4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+-'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
+|4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+-'  1  0  ~/Documents/Competitive Programming/Code/snck1b/fzf
+|4,39,1,0,1540848586,"~/Documents/Competitive Programming/Code/snck1b/fzf"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
+-'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
+|4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
 -'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
 |4,39,10,10,1540606129,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
 -'  10  10  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
@@ -379,96 +467,16 @@ $
 |4,39,32,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
 -'  35  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
 |4,39,35,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  38  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,38,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  46  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,46,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  48  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,48,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  54  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,54,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  57  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,57,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  59  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,59,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  62  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,62,0,1540606076,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  66  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,66,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  68  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,68,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  66  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,66,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  68  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,68,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  66  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,66,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  68  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,68,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  66  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,66,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  68  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,68,0,1540606075,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  70  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,70,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  76  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,76,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  82  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,82,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  85  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,85,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  87  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,87,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  90  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,90,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  93  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,93,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  96  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,96,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  70  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,70,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  76  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,76,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  82  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,82,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  85  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,85,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  87  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,87,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  90  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,90,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  93  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,93,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  96  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,96,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  70  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,70,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  76  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,76,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  82  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,82,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  85  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,85,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  87  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,87,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  90  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,90,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  93  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,93,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  96  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,96,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  70  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,70,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  76  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,76,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  82  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,82,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  85  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,85,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
--'  87  0  ~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py
-|4,39,87,0,1540606074,"~/Documents/fbScrape/facebook-page-post-scraper/get_fb_posts_fb_page.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/Documents/TermPaper/midterm.aux
+	*	1542778316	0
+	"	1	0
+
+> ~/Documents/AI571/Lab8/A2.py
+	*	1542630277	0
+	"	101	0
 
 > ~/Documents/CS564/Assignment 4/Sentiment Analysis/dataset/smile_positive.txt
 	*	1541334200	0
@@ -1224,11 +1232,3 @@ $
 > ~/Documents/CS341/Assignment 2/q4/q4.c
 	*	1516053696	0
 	"	42	0
-
-> ~/Documents/Competitive Programming/Implemented codes and algorithms/auxillarytree.cpp
-	*	1515958569	0
-	"	1	0
-
-> ~/Documents/Competitive Programming/Implemented codes and algorithms/Auxtree.cpp
-	*	1515958550	0
-	"	36	0
