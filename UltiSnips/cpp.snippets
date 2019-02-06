@@ -34,6 +34,21 @@ int32_t main() { SYNC
 }
 endsnippet
 
+snippet comp "Final Competitive Template"
+#include <bits/stdc++.h>
+
+using namespace std;
+#define endl '\n'
+
+int32_t main () {
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+
+
+  return 0;
+}
+endsnippet
+
 snippet zxcv "GCJ Template"
 #include <bits/stdc++.h>
 
@@ -59,7 +74,7 @@ using LD = long double;
 
 template<class TH> void _dbg(const char *sdbg, TH h){cerr<<sdbg<<"="<<h<<"\n";}
 template<class TH, class... TA> void _dbg(const char *sdbg, TH h, TA... a) {
-    while(*sdbg!=','){cerr<<*sdbg++;} cerr<<"="<<h<<","; _dbg(sdbg+1, a...);
+  while(*sdbg!=','){cerr<<*sdbg++;} cerr<<"="<<h<<","; _dbg(sdbg+1, a...);
 }
 
 #ifdef aishwarya_tandon_is_the_best
@@ -70,15 +85,14 @@ template<class TH, class... TA> void _dbg(const char *sdbg, TH h, TA... a) {
 #endif
 
 int32_t main() { SYNC
-    int caseNo = 1;
-    int T;
-    cin >> T;
-    while(T--) {
-        cout << "Case #" << caseNo++ << ": ";
-        $1
-        
-    }
-    cerr << "Time elapsed :" << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
-    return 0;
+  int caseNo = 1;
+  int T;
+  cin >> T;
+  while(T--) {
+    cout << "Case #" << caseNo++ << ": ";
+    $1
+  }
+  cerr << "Time elapsed :" << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
+  return 0;
 }
 endsnippet

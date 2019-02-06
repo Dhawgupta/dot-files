@@ -11,7 +11,8 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'morhetz/gruvbox'
 
   "Fuzzy finder (files, mru, etc)
-  Plug 'ctrlpvim/ctrlp.vim'
+  Plug '/usr/local/opt/fzf'
+  Plug 'junegunn/fzf.vim'
 
   "A pretty statusline, bufferline integration
   Plug 'itchyny/lightline.vim'
@@ -69,7 +70,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
   "Plugin for vim themes
   "Plug 'reedes/vim-thematic'
-  
+
   "Plugin for Window Resize Mode
   Plug 'romgrk/winteract.vim'
 
@@ -121,11 +122,11 @@ nnoremap <silent> <F6> :checktime
 "Show whitespaces as characters
 set list
 "For Normal Mode wrapping after right"
-set whichwrap+=>,l
-"For Normal Mode wrapping after left"
-set whichwrap+=<,h
-"For Insert Mode wrapping"
-set whichwrap+=[,]
+"set whichwrap+=>,l
+""For Normal Mode wrapping after left"
+"set whichwrap+=<,h
+""For Insert Mode wrapping"
+"set whichwrap+=[,]
 "For highligting the current line
 set cursorline
 "Shows the current buffer path
@@ -183,7 +184,13 @@ set bg=dark
 "LightLine vim configuration
 let g:lightline = {
       \ 'colorscheme': 'seoul256',
+      \ 'component_function': {
+      \   'filename': 'LightLineFilename'
       \ }
+      \ }
+function! LightLineFilename()
+  return expand('%:p')
+endfunction
 "---------------------------------------------
 "
 "
