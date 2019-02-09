@@ -27,10 +27,10 @@ template<class TH, class... TA> void _dbg(const char *sdbg, TH h, TA... a) {
 #endif
 
 int32_t main() { SYNC
-	$1
+  $1
 
-	cerr << "Time elapsed :" << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
-	return 0;
+  cerr << "Time elapsed :" << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
+  return 0;
 }
 endsnippet
 
@@ -94,5 +94,56 @@ int32_t main() { SYNC
   }
   cerr << "Time elapsed :" << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
   return 0;
+}
+endsnippet
+
+snippet ran "random_number_generator"
+auto seed = chrono::system_clock().now().time_since_epoch().count();
+random_device rd;
+mt19937 gen(rd()); // mersenne twister (only for 32 bit unsigned numbers)
+uniform_int_distribution<int> dis(1, 10000); // dis(L, R) uniformly generates [L, R] (inclusive)
+endsnippet
+
+snippet pow "power(a, b)"
+int power(int a, int b) {
+  int ans = 1;
+  for (; b > 0; b >>= 1) {
+    if (b & 1) ans = multiply(ans, a);
+    a = multiply(a, a);
+  }
+  return ans;
+}
+endsnippet
+
+snippet varMult "multiplication_variadic"
+int add(){ return 0; }
+
+template<typename... T> int add(int a, T... arg){
+  int b = add(arg...);
+  int ans = a + b;
+  if (ans >= MOD)
+    ans -= MOD;
+  return ans;
+}
+
+int multiply(){return 1;}
+
+template<typename... Args> int multiply(int a, Args... arg){
+  return (a * 1LL * multiply(arg...)) % MOD;
+}
+endsnippet
+
+snippet modMultiplyBinary "BinaryModularFinding"
+using __int = unsigned long long;
+__int mulmod(__int a, __int b, __int MOD) {
+  __int ans = 0;
+  if(a >= MOD) a %= MOD;
+  if(b >= MOD) b %= MOD;
+  while(b) {
+    if(b & 1) ans = (ans + a) % MOD;
+    a = (a * 2LL ) % MOD;
+    b >>= 1;
+  }
+  return ans;
 }
 endsnippet

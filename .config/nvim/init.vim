@@ -103,16 +103,10 @@ call plug#begin('~/.local/share/nvim/plugged')
   "Plugin for rainbow paranthesis
   Plug 'junegunn/rainbow_parentheses.vim'
   call plug#end()
-"
-"
-"
+
 "-------------Basic Customs--------------
-"show existing tab with 4 spaces width
-set tabstop=2
-"when indenting with '>', use 4 spaces width
-set shiftwidth=2
-"On pressing tab, insert 4 spaces
-set expandtab
+"show existing tab with 2 spaces width
+set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 "Line numbering (Relative or Absolute or Hybrid)
 set number relativenumber
 "Use 256 bit colors
@@ -121,45 +115,42 @@ set t_Co=256
 nnoremap <silent> <F6> :checktime
 "Show whitespaces as characters
 set list
-"For Normal Mode wrapping after right"
-"set whichwrap+=>,l
-""For Normal Mode wrapping after left"
-"set whichwrap+=<,h
-""For Insert Mode wrapping"
-"set whichwrap+=[,]
 "For highligting the current line
 set cursorline
 "Shows the current buffer path
 set statusline+=%F
 "reload the file
 nnoremap <silent> <Tab> :checktime<CR>
+"for python
+autocmd FileType python setlocal tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+
+"Angular brackets completion
+augroup AngleBrackets
+    autocmd!
+    autocmd FileType cpp set matchpairs+=<:>
+augroup END
 "----------------------------------------
-"
-"
-"
+
 "Highlighting for OCTOL PLUGIN
 let g:cpp_class_scope_highlight = 1
 let g:cpp_member_variable_highlight = 1
 let g:cpp_class_decl_highlight = 1
 let c_no_curly_error=1
-"
-"
-"
+
 "Reformat the code
 let b:formatdef_custom_cpp='"clang-format -style=\"{IndentWidth: 2, TabWidth: 2}\" "'
 let b:formatters_cpp = ['custom_cpp']
-"
-"
-"
+
 "TABS REMAPPING
 nnoremap tn :tabnew<Space>
 nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
-"
-"
-"
+nnoremap ti :Windows<CR>input
+nnoremap to :Windows<CR>output
+nmap <leader><tab> <plug>(fzf-maps-n)
+
 "YouCompleteMe configs
 let g:ycm_add_preview_to_completeopt = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
@@ -170,9 +161,7 @@ autocmd BufEnter *.cpp :let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf_cpp
 autocmd BufEnter *.cc :let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf_cpp.py'
 autocmd BufEnter *.c :let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf_c.py'
 nnoremap <C-\> :YcmRestartServer<CR>
-"
-"
-"
+
 "------------COLOR SCHEME MAPPINGS-----------
 "Terminal Colors SETTINGS
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -192,40 +181,42 @@ function! LightLineFilename()
   return expand('%:p')
 endfunction
 "---------------------------------------------
-"
-"
-"
+
 "-------------Asynchronous compilation and running Plugins----------
 "automatically open quickfix window when AsyncRun command is executed
 "set the quickfix window 10 lines height.
 let g:asyncrun_open = 10
 "ring the bell to notify you job finished
 let g:asyncrun_bell = 1
-"ring the bell to notify you job finished
 "F10 to toggle quickfix window
 nnoremap <F10> :call asyncrun#quickfix_toggle(10)<cr>
 nnoremap <silent> <F2> :AsyncRun -cwd=$(VIM_FILEDIR) -save=2 -post=checktime make '%:t:r' && timeout 20s ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in<CR>:checktime<CR>
-"nnoremap <silent> <F2> :AsyncRun -save=2 -post=checktime cd '$(VIM_FILEDIR)' && g++ -Wall -Wfatal-errors -g -O3 -Daishwarya_tandon_is_best '%:t' -o '%:t:r' && ./'%:t:r' < ~/Documents/inputf.in > ~/Documents/outputf.in <CR>
-"nnoremap <silent> <F2> :AsyncRun -save=2 -post=checktime cd '$(VIM_FILEDIR)' && g++ 975e.cpp<CR>
 nnoremap <silent> <F4> :AsyncRun -cwd=$(VIM_FILEDIR) ~/InsertInMakeFile.sh <cr>
 nnoremap <silent> <F5> :AsyncRun -cwd=$(VIM_FILEDIR) ~/InsertInMakeFile.sh "%:t:r"<CR>
 "-------------------------------------------------------------------
-"
-"
-"
+
 "--------------Keybindings------------------
+let mapleader = " "
+let g:AutoPairsMultilineClose = 0
+let g:AutoPairsWildClosedPair = ''
+let b:AutoPairs = {'(':')', '[':']', '{':'}//s',"'":"'",'"':'"', '`':'`'}
+inoremap <m-p> <C-o><m-p><CR>
+nnoremap 0 ^
 "Saving Files
 nnoremap <C-s>  :w<CR>
-inoremap <C-s>  <Esc>:w<CR>a
+"fuzzy search fzf
+nnoremap <C-p>  :Files<CR>
+"Fuzzy line completion
+imap <c-x><c-l> <plug>(fzf-complete-line)
+"Fuzzy Window names completion
+nnoremap <leader>ww  :Windows<CR>
+inoremap <C-s>  <C-o>:w<CR>
 "Disable Highlighting
 nnoremap <F1>   :noh<CR>
 "Reloading the .vimrc file
-nnoremap <F3>   :source ~/.config/nvim/init.vim <CR>
+nnoremap <F3>   :source ~/.config/nvim/init.vim<CR>:noh<CR>
 "Remapping for Copying and Pasting to and from system clipboard
 vmap <C-c> "+y
-"Remapping for getting out of the insert mode
-imap yy <Esc>
-let mapleader = " "
 nnoremap <C-a> ggVG
 "NERDTree Remappings
 nnoremap <C-n> :NERDTree<CR>
@@ -233,9 +224,7 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap j gj
 nnoremap k gk
 "------------------------------------------
-"
-"
-"
+
 "--------UltiSnips Keybindings---------------
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
@@ -244,9 +233,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:UltiSnipsSnippetsDir = "/home/i_love_ayrawhsia_nodnat/UltiSnips"
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "/home/i_love_ayrawhsia_nodnat/UltiSnips"]
 let g:UltiSnipsEditSplit= "context"
-"
-"
-"
+
 "-------Windows Managment------------------
 nnoremap <leader>wc :wincmd q<cr>
 nnoremap <leader>wr <C-W>r
@@ -275,35 +262,30 @@ let g:submode_timeout = 0
 " don't consume submode-leaving key
 let g:submode_keep_leaving_key = 1
 "-------------------------------------------
-"
-"
-"
+
 "-------------Indent Line-------------------
 let g:indentLine_char = '▏'
 "-------------------------------------------
-"
-"
-"
+
 "-------------Searching---------------------
 set hlsearch
 set incsearch
 "set ignorecase
 set smartcase
 "-------------------------------------------
-"
-"
+
 "------------tmux/navigator-----------------
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
 "-------------------------------------------
-"
-"
+
 "------------Neovim python settings---------
 "let g:python_host_prog  = '/usr/bin/python'
 let g:python3_host_prog = '/usr/bin/python3.6'
 let g:loaded_python_provider = 0
+
 "------------Rainbow Parenthesis Colors-----
 augroup rainbow_lisp
   autocmd!

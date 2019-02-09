@@ -1,5 +1,3 @@
-./pstring.sh
-./pstring.sh
 gcc -std=gnu11 dstring.c -o dstring
 ./pstring.sh
 ./pstring.sh
@@ -498,3 +496,5 @@ str=""hello""
 str
 str[:2]
 exit
+cd
+ls
